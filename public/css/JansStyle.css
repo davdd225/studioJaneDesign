@@ -1,0 +1,852 @@
+@import url(https://db.onlinewebfonts.com/c/8922aedb2c18008da7daf4f93fd60bdc?family=Calibri+Light);
+
+@font-face {
+    font-family: "Calibri Light";
+    src: url("https://db.onlinewebfonts.com/t/8922aedb2c18008da7daf4f93fd60bdc.eot");
+    src: url("https://db.onlinewebfonts.com/t/8922aedb2c18008da7daf4f93fd60bdc.eot?#iefix")
+            format("embedded-opentype"),
+        url("https://db.onlinewebfonts.com/t/8922aedb2c18008da7daf4f93fd60bdc.woff2")
+            format("woff2"),
+        url("https://db.onlinewebfonts.com/t/8922aedb2c18008da7daf4f93fd60bdc.woff")
+            format("woff"),
+        url("https://db.onlinewebfonts.com/t/8922aedb2c18008da7daf4f93fd60bdc.ttf")
+            format("truetype"),
+        url("https://db.onlinewebfonts.com/t/8922aedb2c18008da7daf4f93fd60bdc.svg#Calibri Light")
+            format("svg");
+}
+
+.ms-jane {
+    margin-left: -0.75em !important;
+}
+
+testStudio {
+    margin-top: 100px !important;
+}
+
+.ms-jane {
+    font-weight: 600 !important;
+}
+
+.bg-jane-100 {
+    background-color: #efeae4;
+}
+
+.jane-color {
+    /* color: #592607 !important; */
+    text-shadow: 20px #0000;
+}
+
+.studio-jane {
+    background-color: #efeae46a;
+}
+
+.back-jane {
+    background-color: #efeae4;
+}
+
+.kane-jane {
+    background-color: #efeae4;
+}
+
+.galeri-jane {
+    margin-bottom: 75px;
+}
+.col-jane-interieur {
+    border: 5px solid #3b312586;
+    width: 500px;
+    height: 650px;
+    margin: 3%;
+}
+
+.container-jane {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contener {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-jane {
+    margin: 2px;
+    object-fit: cover;
+    width: 100%;
+    height: 512px;
+}
+.top-jane {
+    margin-top: 5%;
+}
+
+.jane-bottom {
+    margin-bottom: 100px;
+}
+
+.projet-jane {
+    padding: 8rem !important;
+}
+
+.bg-jane {
+    background-color: #efeae4;
+}
+
+.bg-texte-jane {
+    font-size: 15px;
+    font-weight: 200;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.text-jane {
+    text-align: center;
+}
+.text-catalogue-jane {
+    color: #222222;
+}
+
+.text-p-jane {
+    font-size: 35px !important;
+    text-align: left;
+    color: #222222 !important;
+    font-family: "Calibri Light" !important;
+    line-height: 1.5;
+}
+.text-jane-description {
+    color: #222222;
+}
+.about-text {
+    margin: 0px 7px 40px;
+    font-size: 80px;
+}
+
+.about-paragraphe {
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.bordue-jane {
+    padding: 9%;
+}
+
+.contact-section {
+    margin-bottom: 120px !important;
+}
+
+.jane-button {
+    margin: 20px 0 0px;
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+}
+.about-paragraphe {
+    padding: 5%;
+    border-radius: 10px;
+}
+
+.card-jane {
+    background-color: #eddbcd !important;
+}
+
+.jane-zoom-wrapper {
+    height: 500px;
+    overflow: hidden;
+}
+
+.jane-zoom-wrapper img {
+    object-fit: cover;
+    transition: transform 0.8s;
+    height: 100%;
+    cursor: pointer;
+}
+.jane-zoom-wrapper:hover img {
+    transform: scale(1.2);
+}
+
+.jane-img {
+    margin-top: 100px;
+    width: 100%;
+}
+
+.jane-img-bg {
+    background: linear-gradient(
+        90deg,
+        rgba(200, 174, 149, 1) 0%,
+        rgba(200, 174, 149, 1) 35%,
+        rgb(235, 220, 207) 100%
+    );
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-60px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+.bg-chaise {
+    background-color: #f3f3f3;
+}
+
+.ddisplay-jane {
+    font-size: 28px;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+.rounder-jane {
+    font-family: "Calibri Light" !important;
+    font-size: 75px;
+    font-weight: 500;
+    line-height: 1.2;
+    color: #f3f3f3;
+    text-transform: uppercase;
+}
+
+.me-jane {
+    margin-left: auto !important;
+}
+
+.link-jane {
+    font-size: 23px;
+    line-height: 1.2;
+}
+.navbar .link-jane {
+    color: black !important;
+}
+
+.text-jane {
+    font-size: 27px !important;
+    text-align: left;
+    color: #222222 !important;
+    font-family: "Calibri Light" !important;
+    line-height: 1.5;
+}
+
+.text-font-jane {
+    font-family: "Calibri Light" !important;
+    text-transform: uppercase;
+    line-height: 1.2;
+    font-weight: 800;
+}
+
+.jane-article {
+    font-size: 35px;
+    font-family: "Calibri Light" !important;
+}
+
+.top-jane-about {
+    margin-top: 30%;
+}
+.jane-calibri {
+    font-family: "Calibri Light" !important;
+    font-size: 35px;
+    line-height: 1.2;
+    font-weight: 900;
+}
+
+.images-jane-slider {
+    width: 100%;
+    height: 100%;
+    max-width: 250%;
+    object-fit: cover;
+    margin-left: 70%;
+}
+
+/* carousel */
+
+/* Styles for the carousel container */
+/* Styles for the carousel container */
+.carousel-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    /* padding-bottom: 50px; */
+}
+
+/* Styles for the carousel */
+.carousel {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    /* background-color: #222222; */
+}
+
+/* Sur les écrans, quand la largeur de la fenêtre fait au maximum 1280px */
+@media screen and (max-width: 1020px) {
+    .carousel-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .carousel {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        overflow: hidden;
+        /* background-color: #222222;
+        margin-right: 0%; */
+    }
+
+    .carousel-text {
+        position: sticky;
+        bottom: 0;
+        text-align: left;
+        color: #f4f4f4;
+        font-size: 50px !important;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        font-family: "Calibri", sans-serif !important;
+        animation: slide-in 0.5s ease-in-out forwards;
+    }
+}
+
+/* .bg-carousel {
+    padding-top: 50px;
+    background-color: #222222;
+} */
+.text-jane-black {
+    color: #fff;
+}
+.color-nav-jane {
+    color: #fff !important;
+}
+.carousel-slide.active {
+    display: block;
+    opacity: 1; /* Définir l'opacité à 1 pour montrer l'image */
+    z-index: 1; /* Assurer que l'image est au-dessus des autres */
+}
+
+.carousel-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.carousel-text {
+    position: sticky;
+    bottom: 0;
+    text-align: center;
+    background-color: #c9af97;
+    color: #222222;
+    width: 100%;
+    font-weight: 100;
+    font-size: 50px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: "Calibri", sans-serif !important;
+    animation: slide-in 0.5s ease-in-out forwards;
+}
+
+@keyframes slide-in {
+    from {
+        left: -100%;
+    }
+    to {
+        left: 20px;
+    }
+}
+
+.carousel-slide {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: opacity 1.5s ease-in-out;
+    right: 0;
+    opacity: 0; /* Définir l'opacité initiale à 0 */
+}
+
+.carousel-slide.active {
+    opacity: 1; /* Lorsque la classe active est appliquée, définir l'opacité à 1 */
+    display: block;
+}
+
+.bg-cover-jane {
+    background-color: #222222;
+    background-position: center;
+}
+
+.custom-alert {
+    position: relative;
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.alert-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.close-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    color: #155724;
+}
+
+/* .bg-bannier-jane{
+    background-color:#e8e6d0;
+  }
+
+  .banner-jane{
+    background-image: url('/img/banniere-jane-2.jpg');
+    width: 100%;
+    height: 600px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: contain;
+    border-radius: 70px;
+   
+  
+  } */
+
+.banner-jane::before {
+    content: "";
+    position: absolute;
+    top: 120px;
+    left: 0;
+    width: 100%;
+    height: 610px;
+    background-color: #8482757e;
+    backdrop-filter: blur(1px);
+}
+
+.titre-bannier {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -90%);
+    color: #ffff;
+    font-size: 85px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 800;
+    /* text-transform: uppercase; */
+    text-align: center;
+}
+
+.grid_container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 600px;
+    gap: 2em;
+}
+
+.gallery-jane img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50% 50%;
+    position: relative;
+}
+
+.details-btn-jane {
+    display: inline-flex;
+    align-items: center; /* Alignement vertical au centre */
+    justify-content: center; /* Alignement horizontal au centre */
+    margin-right: 10px;
+}
+.btn-jane-chaise {
+    background-color: #222222;
+    color: #f4f4f4;
+    font-size: 22px;
+    border-radius: 8px;
+    width: 400px;
+    height: 70px;
+}
+.btn-jane-chaise:hover {
+    background-color: #f4f4f4 !important;
+    color: #222222 !important;
+    font-size: 22px;
+    border-radius: 8px;
+    width: 400px;
+    height: 70px;
+}
+
+.text-jane-catealogue {
+    color: #222222;
+}
+
+.details-positon-jane {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 80px;
+    font-weight: 80;
+    color: #343a40;
+    font-family: "Calibri", sans-serif !important;
+    text-transform: uppercase;
+}
+.margin-jane-text {
+    margin: 3%;
+    align-items: end;
+    font-size: 25px;
+}
+
+.details-jane-carousel {
+    background-color: #efeae4;
+    border-radius: 10px;
+}
+
+.margin-details-jane {
+    padding-top: 50px;
+}
+
+.image-jane-center {
+    padding-top: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* CAROUSEL */
+
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("/img/canaper.jpg");
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.hero-image-2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("/img/canaper.jpg");
+    width: 100%;
+    height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+}
+
+/* gallery */
+.gallery-image {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Utilisez "space-between" pour répartir les images sur chaque ligne */
+}
+
+.img-box {
+    box-sizing: content-box;
+    margin: 10px;
+    height: 550px;
+    width: calc(
+        33.333% - 20px
+    ); /* Utilisez calc pour définir la largeur de chaque image */
+    overflow: hidden;
+    display: inline-block;
+    color: white;
+    position: relative;
+    background-color: white;
+}
+
+@media (max-width: 1200px) {
+    .img-box {
+        width: calc(
+            50% - 20px
+        ); /* Deux images par ligne sur les écrans de moins de 1200px */
+    }
+}
+
+@media (max-width: 768px) {
+    .img-box {
+        width: calc(
+            100% - 20px
+        ); /* Une image par ligne sur les écrans de moins de 768px */
+    }
+}
+
+.gallery-image img {
+    height: 750px;
+    width: 100% !important;
+    object-fit: cover;
+    transform: scale(1);
+    transition: transform 0.4s ease;
+}
+
+.caption {
+    position: absolute;
+    bottom: 5px;
+    left: 20px;
+    opacity: 0;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.transparent-box {
+    height: 550px;
+    width: 620px;
+    background-color: rgba(0, 0, 0, 0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: background-color 0.3s ease;
+}
+
+.img-box:hover img {
+    transform: scale(1.1);
+}
+
+.img-box:hover .transparent-box {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.img-box:hover .caption {
+    transform: translateY(-20px);
+    opacity: 1;
+}
+
+.img-box:hover {
+    cursor: pointer;
+}
+
+.caption > p:nth-child(2) {
+    font-size: 0.8em;
+}
+
+.opacity-low {
+    opacity: 0.5;
+}
+
+/* Carousel pub */
+
+@-webkit-keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(calc(-250px * 7));
+    }
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(calc(-250px * 7));
+    }
+}
+.slider {
+    background: #efeae4;
+    /* box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125); */
+    height: 100px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+.slider::before,
+.slider::after {
+    background: linear-gradient(
+        to right,
+        #efeae4 0%,
+        rgba(255, 255, 255, 0) 100%
+    );
+    content: "";
+    height: 100px;
+    position: absolute;
+    width: 200px;
+    z-index: 2;
+}
+.slider::after {
+    right: 0;
+    top: 0;
+    transform: rotateZ(180deg);
+}
+.slider::before {
+    left: 0;
+    top: 0;
+}
+.slider .slide-track {
+    -webkit-animation: scroll 40s linear infinite;
+    animation: scroll 40s linear infinite;
+    display: flex;
+    width: calc(250px * 14);
+}
+.slider .slide {
+    height: 100px;
+    width: 250px;
+}
+.text-propos {
+    font-size: 1.3em;
+    float: left;
+}
+.text-apropos-2 {
+    font-size: 1.2em;
+}
+
+.center-apropos {
+    text-align: start;
+    letter-spacing: 1px;
+    margin-bottom: 3%;
+}
+.size-apropos {
+    font-size: 6em;
+}
+
+.text-materiaux-jane {
+    text-transform: uppercase;
+    margin-bottom: 2%;
+}
+
+.center-apropos-2 {
+    text-transform: uppercase;
+    margin-bottom: -5%;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    margin: auto;
+    border-radus: 10px;
+    text-align: center;
+    background-color: #222222;
+    font-family: "Calibri Light" !important;
+}
+.title {
+    color: #f4f4f4;
+    font-size: 18px;
+}
+
+button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 22px;
+    color: #222222;
+}
+
+button:hover,
+a:hover {
+    opacity: 0.7;
+}
+
+.body-team-jane {
+    width: 100%;
+    height: 700px;
+    /* background-color: #343a40; */
+}
+
+.jane-team {
+    margin-top: 100px;
+    border-radius: 15px;
+    text-align: center;
+    padding: 20px 15px 30px;
+    background: #efeae4;
+}
+
+.jane-team .pic-jane {
+    border-radius: 40%;
+    background: #f4f4f4;
+    padding: 10px;
+    margin-bottom: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s ease 0s;
+}
+
+.jane-team:hover .pic-jane {
+    background-color: #343a40;
+    border-radius: 50%;
+}
+
+.pic-jane img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.jane-team .title-team {
+    text-align: center;
+    font-weight: 600;
+    color: red;
+    font-family: "Calibri Light" !important;
+    text-transform: uppercase;
+    display: block;
+    font-size: 20px;
+    margin: 0 0 7px 0;
+}
+
+.jane-team .post-team {
+    font-family: "Calibri Light" !important;
+    text-align: center;
+    color: #222222;
+    text-transform: capitalize;
+    display: block;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+.jane-team .social {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.jane-team .social li {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.jane-team .social li a {
+    border-radius: 50%;
+    font-size: 15px;
+    color: #155724;
+    border: 1p solid #c9af97;
+    display: block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    transition: all 0.5s ease 0s;
+}
+
+.jane-team:hover .social li a {
+    background-color: #eddbcd;
+    color: #222222;
+}
