@@ -1,6 +1,17 @@
 
 @extends('layouts.layout')
 @section('content')
+<div class="py-vh-5 w-100 overflow-hidden ">
+    <div class="row  justify-content-center ">   
+     <div class="col-12 ">
+        <div class="hero-image-3" data-aos="fade-right">
+            <div class="hero-text">
+                <h1 style="font-size:80px">Découvrez l'esprit qui nous anime </h1>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 <div class="py-vh-5 w-100  container-fluid ">
     <div class="container-fluid position-relative">
@@ -21,7 +32,7 @@
                  <h1 class="size-apropos  fw-light py-vh-3">STUDIOS JANE</h1> 
              </div> 
           <div class="col-md-6 col-md-5 col-lg-6  ">
-            <img src="<?php echo e(asset('img/ja/JoeleA.jpg')); ?>" class="img-fluid  p-3 pt-0 ps-0" alt="article image" data-aos="fade" >
+            <img src="{{asset('img/ja/JoeleA.jpg')}}" class="img-fluid  p-3 pt-0 ps-0" alt="article image" data-aos="fade" >
           </div>
           <div class="col-sm-6 col-md-5 offset-md-2 col-lg-6 offset-lg-0">
                  <p class="text-propos  p-3 pt-0 ps-0">
@@ -100,7 +111,7 @@
             <div class="col-md-3 col-sm-6 ">
                 <div class="jane-team  shadow ">
                 <div class="pic-jane">
-                    <img src="<?php echo e(asset('img/ja/Joele_Agouassi.jpg')); ?>" alt="">
+                    <img src="{{asset('img/ja/Joele_Agouassi.jpg')}}" alt="">
                 </div>
                 <h3 class="title-team">Joele Agouassi</h3>
                 <span class="post-team">Atchitecte Interieur</span>
