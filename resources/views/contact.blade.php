@@ -35,8 +35,17 @@
                                <input type="email" class="form-control form-control-lg" id="exampleInputEmail1" name="email" required>
                              </div>
                              <div class="mb-3">
-                               <label for="message" class="form-label">Message</label>
-                               <textarea class="form-control form-control-lg" id="message" name="message" required></textarea>
+                               <label for="date" class="form-label">Calendrier</label>
+                               <input class="form-control form-control-lg" id="date" type="date" value="2017-06-01" required></input>
+                             </div>
+                             <div class="mb-3">
+                                <label for="cars" class="form-label">Services</label>
+                                 <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+                                  <option selected>Open this select menu</option>
+                                  <option value="1">One</option>
+                                  <option value="2">Two</option>
+                                  <option value="3">Three</option>
+                                </select>
                              </div>
                              <p class="small text-muted">En créant un compte, vous acceptez nos conditions d'utilisation bien cachées. Elles sont quelque part ici... pour des raisons légales... mais vous ne les trouveriez pas!</p>
                              <button type="submit" class="btn btn-dark btn-xl shadow me-3 rounder-jane my-5">Envoyer</button>                    

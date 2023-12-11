@@ -12,14 +12,14 @@
               <div class="carousel-text ">Salon </div>
             </div>
             <div class="carousel-slide">
-              <img src="{{asset('img\img-carousel\BED-room.jpg')}}" alt="Image 3" class="carousel-img">
-              <div class="carousel-text">  Chambre </div>
+              <img src="{{asset('img\img-carousel\bath-room.jpg')}}" alt="Image 3" class="carousel-img">
+              <div class="carousel-text"> Sale de bain </div>
             </div>
           </div>
         </section>
           <div class="py-vh-2 w-100 overflow-hidden jane-img-bg " id="numbers">
-                <div class="container">
-                <div class="row d-flex justify-content-between align-items-center  ">
+              <div class="container">
+                <div class="row d-flex justify-content-center align-items-center  ">
                     <div class="col-lg-5 ">
                       <div class="py-5 " data-aos="fade-right"><img  class="jane-img " src="{{asset('img/ja/acceuil_img_3.jpg')}}" alt="" width=""></div>
                     </div>
@@ -30,7 +30,7 @@
                     </div>
                       <p class=" text-p-jane "  data-aos="fade-up"> Nous ne proposons pas seulement des meubles et des décorations intérieures, mais des pièces qui racontent des histoires, qui capturent des moments et qui créent des souvenirs. Explorez notre collection pour découvrir comment chaque article peut transformer votre espace en un sanctuaire de confort et de style.</p>  
                   </div>
-                <div class="row d-flex justify-content-center align-items-center">
+                  <div class="row d-flex justify-content-center align-items-center">
                     <div class="col-lg-12  d-flex justify-content-center align-items-center " data-aos="fade-up">
                          <div class="details-btn-jane">
                             <a  href="{{url('/press')}}" class="btn  btn-xl shadow me-3 btn-jane-chaise my-5">
@@ -153,8 +153,17 @@
                 </div>
                   <div class="col-md-7" data-aos="fade-left">
                     <blockquote>
-                      <div class="fs-4 my-3 fw-light pt-4 border-bottom pb-3">La décoration intérieure va au-delà des meubles. Avec notre collection, vous pouvez personnaliser chaque détail, des textiles aux accessoires, pour créer un espace qui reflète véritablement votre style unique.</div>
+                      <div class="fs-4 my-3 fw-light pt-4 border-bottom pb-1">La décoration intérieure va au-delà des meubles. Avec notre collection, vous pouvez personnaliser chaque détail, des textiles aux accessoires, pour créer un espace qui reflète véritablement votre style unique.</div>
                     </blockquote>
+                  </div>
+                  <div class="row d-flex justify-content-start align-items-start">
+                    <div class="col-lg-12  d-flex justify-content-start align-items-start " data-aos="fade-up">
+                         <div class="details-btn-jane">
+                            <a  href="{{url('/studio')}}" class="btn  btn-xl shadow me-3 btn-jane-chaise my-5">
+                             Studio
+                            </a>
+                        </div> 
+                  </div>
                   </div>
                 </div>
               </div>

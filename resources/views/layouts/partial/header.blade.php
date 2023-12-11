@@ -11,7 +11,7 @@
                 <ul class="navbar-nav me-jane mb-2 mb-lg-0 ">
                 <li class="nav-item">
                     <a class="nav-link link-jane color-nav-jane" href="{{url('/studio')}}">
-                    Studio
+                    Projet
                     </a>
                 </li>
                 <li class="nav-item">
@@ -20,8 +20,8 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link link-jane color-nav-jane" href="{{url('/press')}}">
-                     Press
+                    <a class="nav-link link-jane color-nav-jane" href="{{url('/furniture')}}">
+                     Meuble
                     </a>
                 </li>
                 <li class="nav-item">
