@@ -16,9 +16,9 @@ return new class extends Migration
         Schema::create('services_janes', function (Blueprint $table) {
             $table->id('id_service_jane');
             $table->string('nom_service_jane');
-            $table->longText('descritpion_service_jane');
             $table->string('images_service_jane');
             $table->timestamps();
+            //$table->longText('descritpion_service_jane');
         });
     }
 

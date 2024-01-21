@@ -1,11 +1,11 @@
-<footer class="bg-jane">
+<footer class="bg-jane  nav-jane-police">
     <div class="container small border-top bg-jane">
     <div class="row py-5 d-flex justify-content-between">
 
     <div class="col-12 col-lg-6 col-xl-3 border-end p-5">
     <img src="{{asset('/img/jane-designe-2.png')}}" alt="" type="icon" width="250">
 
-    <address class="text-secondary mt-3" style="margin-left: 10px;">
+    <address class="text-secondary mt-3 " style="margin-left: 10px;">
         <strong>Studio Jane design.</strong><br>
          01 BP 497 ABIDJAN 01<br>
         Abidjan, Codte<br>
@@ -14,7 +14,7 @@
     </address>
     </div>
     <div class="col-12 col-lg-6 col-xl-3 border-end p-5">
-    <h3 class="h6 mb-3">Acceuil</h3>
+    <h3 class="h6 mb-3 ">Acceuil</h3>
     <ul class="nav flex-column">
         <li class="nav-item">
         </li>

@@ -31,62 +31,6 @@
                          </div>
                      <hr style="margin-top:7%;">
                     </div>                    
-                        <div class="details-btn-jane">
-                            <button type="button" class="btn btn-dark btn-xl shadow me-3 rounder-jane my-5" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-                           Commander
-                            </button>
-                        </div>                  
-                    <!-- Modal -->
-                    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                        <div class="modal-dialog">
-                            <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title" id="staticBackdropLabel">Commande</h5>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                            </div>
-                            <div class="modal-body ">
-                                @if (session('success'))
-                                <div class="custom-alert alert-success">
-                                    <div class="alert-content">
-                                        <button class="close-button" onclick="closeAlert(this)">  {{ session('success') }} &ensp; &times;</button>
-                                    </div>
-                                </div> 
-                                @endif 
-                                <form id="form" class="row form" onsubmit="return validateForm()" method="POST" action="{{ url('/contact') }}">
-                                    @csrf
-                                    <div class="contact-section">
-                                        <div class="mb-3">
-                                        <label for="name" class="form-label">Nom</label>
-                                        <input type="text" class="form-control form-control-lg" id="name" name="name" required>
-                                        </div>
-                                        <div class="mb-3">
-                                        <label for="firstName" class="form-label">Prénom</label>
-                                        <input type="text" class="form-control form-control-lg" id="firstName" name="firstName" required>
-                                        </div>
-                                        <div class="mb-3">
-                                        <label for="number" class="form-label">Numéro de Téléphone</label>
-                                        <input type="tel" class="form-control form-control-lg" id="number" name="number" required>
-                                        </div>
-                                        <div class="mb-3">
-                                        <label for="exampleInputEmail1" class="form-label">Adresse Email</label>
-                                        <input type="email" class="form-control form-control-lg" id="exampleInputEmail1" name="email" required>
-                                        </div>
-                                        <div class="mb-3">
-                                        <label for="message" class="form-label">Message</label>
-                                        <textarea class="form-control form-control-lg" id="message" name="message" required></textarea>
-                                        </div>
-                                        <p class="small text-muted">En créant un compte, vous acceptez nos conditions d'utilisation bien cachées. Elles sont quelque part ici... pour des raisons légales... mais vous ne les trouveriez pas!</p>
-                                        <button type="submit" class="btn btn-dark btn-xl shadow me-3 rounder-jane my-5">Envoyer</button>                    
-                                    </div>
-                                </form>
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                <button type="button" class="btn btn-primary">Understood</button>
-                            </div>
-                            </div>
-                        </div>
-                    </div>
                     <!--  -->
                   </div>
                </div>

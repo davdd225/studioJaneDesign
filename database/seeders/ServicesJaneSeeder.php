@@ -73,10 +73,55 @@ class ServicesJaneSeeder extends Seeder
 
          \App\Models\Services_jane::create([    
           
-            'nom_service_jane' => 'Bureau JANE',
-            'descritpion_service_jane'=> 'Découvrez un Salon  rénové, où l élégance moderne rencontre le confort. Plongez dans une ambiance harmonieuse et laissez-vous séduire par le mariage parfait du design et du bien-être.',
+            'nom_service_jane' => 'Chambre',
+            'images_service_jane' => 'img\img-press\chambre',
+        ]);
+
+        \App\Models\Services_jane::create([    
+          
+            'nom_service_jane' => 'Studio jane design',
             'images_service_jane' => 'img\img-press\img_studio',
         ]);
+
+        \App\Models\Services_jane::create([    
+          
+            'nom_service_jane' => 'Salle de bain',
+            'images_service_jane' => 'img\img-press\Salle_de_bain',
+        ]);
+
+        \App\Models\Services_jane::create([    
+          
+            'nom_service_jane' => 'Interieur salon',
+            'images_service_jane' => 'img\img-press\salon',
+        ]);
+
+        \App\Models\Services_jane::create([    
+          
+            'nom_service_jane' => 'Interieur cuisine ',
+            'images_service_jane' => 'img\img-press\cuisine',
+        ]);
+
+
+
+        \App\Models\Services_jane::create([    
+          
+            'nom_service_jane' => 'Escalier ',
+            'images_service_jane' => 'img\img-press\marche',
+        ]);
+
+        // \App\Models\Services_jane::create([    
+          
+        //     'nom_service_jane' => 'Deco escalier',
+        //     'images_service_jane' => 'img\img-press\marche,
+        // ]);
+
+       
+
+
+
+
+
+    
 
     }
 }

@@ -5,14 +5,9 @@
            @foreach(glob($meubleUnique->images_service_jane.'/*.*') as $meubleUniques)     
                 <div class="img-box">               
                     <img src="{{asset($meubleUniques)}}" alt="" />
-                    <div class="transparent-box">
-                        <div class="caption">
-                            <p>Library</p>
-                            <p class="opacity-low">Architect Design</p>
-                        </div>  
-                    </div>             
+                                
                 </div>
             @endforeach
       </div>
-
+   
 @endsection

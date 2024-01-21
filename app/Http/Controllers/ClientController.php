@@ -46,6 +46,8 @@ class ClientController extends Controller
                 'firstName' => 'required',
                 'number' => 'required',
                 'email' => 'required|email',
+                'calendar' => 'required|date',
+                'services' => 'required|string',
                 'message' => 'required',
                  
             ]);
@@ -55,6 +57,8 @@ class ClientController extends Controller
         $contact->firstName = $validatedData['firstName'];
         $contact ->number = $validatedData['number'];
         $contact ->email = $validatedData['email'];
+        $contact  ->calendrier = $validatedData['calendar'];
+        $contact  ->services = $validatedData['services'];
         $contact ->message = $validatedData['message'];
 
         $contact->save();

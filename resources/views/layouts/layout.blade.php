@@ -8,9 +8,9 @@
       <link href="{{url('https://db.onlinewebfonts.com/c/8922aedb2c18008da7daf4f93fd60bdc?family=Calibri+Light')}}" rel="stylesheet">
       <link href="{{url('https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css')}}" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
       <link rel="icon" href="{{asset('/img/ja.ico')}}" type="image/xl-icon">
-      <link rel="stylesheet" href="{{asset('/css/theme.min.css')}}">
-      <link rel="stylesheet" href="{{asset('/css/JansStyle.css')}}">
-      <link rel="stylesheet" href="{{asset('/css/carousel.css')}}">
+      <link rel="stylesheet" href="{{asset('css/theme.min.css')}}">
+      <link rel="stylesheet" href="{{asset('css/JansStyle.css')}}">
+      <link rel="stylesheet" href="{{asset('css/carousel.css')}}">
       
 
 
@@ -53,8 +53,8 @@
        </main>
        @include('layouts.partial.footer')
        <script src="{{url('https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js')}}" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
-       <script src="{{asset('/js/bootstrap.bundle.min.js')}}"></script>
-       <script src="{{asset('/js/aos.js')}}"></script>
+       <script src="{{asset('js/bootstrap.bundle.min.js')}}"></script>
+       <script src="{{asset('js/aos.js')}}"></script>
        <script>
             AOS.init({
             duration: 800, // values from 0 to 3000, with step 50ms

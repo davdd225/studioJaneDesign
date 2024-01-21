@@ -24,9 +24,9 @@ Route::get('/', function () {
     return view('accueil');
 });
 
-Route::get('/press', [PressController::class, 'index']);
+Route::get('/furniture', [PressController::class, 'index']);
 
-Route::get('/press/details/{id}', [PressController::class, 'funriturePress']);
+Route::get('/furniture/details/{id}', [PressController::class, 'funriturePress']);
 
 Route::get('/accueil', [AccueilController::class, 'index']);
 

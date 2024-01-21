@@ -18,6 +18,8 @@ class Client extends Model
         'firstName',
         'number',
         'email',
+        'calendrier',
+        'services',
         'message',
     ];
 

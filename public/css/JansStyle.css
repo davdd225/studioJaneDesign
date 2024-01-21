@@ -107,11 +107,11 @@ testStudio {
 }
 
 .text-p-jane {
-    font-size: 35px !important;
+    font-size: 25px !important;
     text-align: left;
     color: #222222 !important;
     font-family: "Calibri Light" !important;
-    line-height: 1.5;
+    line-height: 1.3;
 }
 .text-jane-description {
     color: #222222;
@@ -119,6 +119,16 @@ testStudio {
 .about-text {
     margin: 0px 7px 40px;
     font-size: 80px;
+    font-family: "Calibri Light" !important;
+    line-height: 1.5;
+    text-transform: uppercase;
+}
+.about-text-2 {
+    font-size: 40px;
+    font-family: "Calibri Light" !important;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    text-transform: uppercase;
 }
 
 .about-paragraphe {
@@ -165,19 +175,26 @@ testStudio {
 }
 
 .jane-img {
-    margin-top: 100px;
-    width: 100%;
+    /* margin-top: 100px; */
+    border-radius: 15px;
+    width: 70%;
+}
+
+.bg-jane-expo {
+    background-color: #f3f3f3;
 }
 
 .jane-img-bg {
     background: linear-gradient(
         90deg,
         rgba(200, 174, 149, 1) 0%,
-        rgba(200, 174, 149, 1) 35%,
+        rgb(235, 220, 207) 100%,
         rgb(235, 220, 207) 100%
     );
 }
-
+.jane-img-bg-1 {
+    background-color: #f4f4f4;
+}
 @keyframes float {
     0% {
         transform: translateY(0px);
@@ -214,10 +231,10 @@ testStudio {
 }
 
 .link-jane {
-    font-size: 23px;
     line-height: 1.2;
 }
 .navbar .link-jane {
+    font-size: 25px;
     color: black !important;
 }
 
@@ -338,11 +355,11 @@ testStudio {
     position: sticky;
     bottom: 0;
     text-align: center;
-    background-color: #c9af97;
-    color: #222222;
+    background-color: #222222ae;
+    color: #c9af97;
     width: 100%;
     font-weight: 100;
-    font-size: 50px;
+    font-size: 47px;
     letter-spacing: 1px;
     text-transform: uppercase;
     font-family: "Calibri", sans-serif !important;
@@ -481,8 +498,30 @@ testStudio {
     height: 70px;
 }
 
-.text-jane-catealogue {
+.btn-jane-chaise-2 {
+    background-color: #f4f4f4;
     color: #222222;
+    font-size: 22px;
+    border-radius: 8px;
+    width: 400px;
+    height: 70px;
+}
+.btn-jane-chaise-2:hover {
+    background-color: #222222 !important;
+    border: 1px solid #c9af97;
+    color: #c9af97 !important;
+    font-size: 22px;
+    border-radius: 8px;
+    width: 400px;
+    height: 70px;
+}
+
+.text-jane-catealogue {
+    margin-top: 10%;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: #222222;
+    text-align: start !important;
 }
 
 .details-positon-jane {
@@ -531,18 +570,6 @@ testStudio {
 }
 .hero-image-2 {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-        url("/img/canaper.jpg");
-    width: 100%;
-    height: 700px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    position: relative;
-}
-
-.hero-image-2 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
         url("/img/ja/about-us.jpg");
     width: 100%;
     height: 700px;
@@ -553,13 +580,47 @@ testStudio {
     position: relative;
 }
 
+.hero-image-3 {
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("/img/banniere-jane-2.jpg"); */
+    width: 100%;
+    height: 600px;
+    object-fit: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+.hero-image-4 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("/img/ja/JoeleA.jpg");
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
 .hero-text {
     text-align: center;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: rgb(255, 255, 255);
+    color: #f4f4f4;
+}
+
+.hero-text-about {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #222222;
+    font-family: "Calibri light" !important;
+    font-weight: 100 !important;
+    letter-spacing: 1px;
 }
 
 /* gallery */
@@ -601,7 +662,7 @@ testStudio {
 }
 
 .gallery-image img {
-    height: 750px;
+    height: 550px;
     width: 100% !important;
     object-fit: cover;
     transform: scale(1);
@@ -610,10 +671,24 @@ testStudio {
 
 .caption {
     position: absolute;
+    color: #f4f4f4;
     bottom: 5px;
     left: 20px;
     opacity: 0;
     transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.text-for-img {
+    /* color: #f4f4f4; */
+    font-size: 35px;
+    letter-spacing: 5px !important;
+    font-family: "Calibri Light" !important;
+    text-transform: uppercase;
+}
+
+.color-opacity {
+    font-size: 1.5em !important;
+    color: #c9af97;
 }
 
 .transparent-box {
@@ -712,11 +787,14 @@ testStudio {
     width: 250px;
 }
 .text-propos {
-    font-size: 1.3em;
+    font-size: 1.6em;
+    line-height: 1.6;
+    letter-spacing: 0.2px;
+    color: #343a40;
     float: left;
 }
 .text-apropos-2 {
-    font-size: 1.2em;
+    font-size: 1.5em;
 }
 
 .center-apropos {
@@ -725,7 +803,8 @@ testStudio {
     margin-bottom: 3%;
 }
 .size-apropos {
-    font-size: 6em;
+    font-size: 3em;
+    letter-spacing: 1px;
 }
 
 .text-materiaux-jane {
@@ -752,30 +831,6 @@ testStudio {
     font-size: 18px;
 }
 
-button {
-    border: none;
-    outline: 0;
-    display: inline-block;
-    padding: 8px;
-    color: white;
-    background-color: #000;
-    text-align: center;
-    cursor: pointer;
-    width: 100%;
-    font-size: 18px;
-}
-
-a {
-    text-decoration: none;
-    font-size: 22px;
-    color: #222222;
-}
-
-button:hover,
-a:hover {
-    opacity: 0.7;
-}
-
 .body-team-jane {
     width: 100%;
     height: 700px;
@@ -784,15 +839,14 @@ a:hover {
 
 .jane-team {
     margin-top: 100px;
-    border-radius: 15px;
+    border-radius: 30%;
     text-align: center;
     padding: 20px 15px 30px;
-    background: #efeae4;
 }
 
 .jane-team .pic-jane {
-    border-radius: 40%;
-    background: #f4f4f4;
+    border-radius: 50%;
+    background: #222222;
     padding: 10px;
     margin-bottom: 25px;
     display: flex;
@@ -804,7 +858,7 @@ a:hover {
 }
 
 .jane-team:hover .pic-jane {
-    background-color: #343a40;
+    background-color: #f4f4f4;
     border-radius: 50%;
 }
 
@@ -816,22 +870,24 @@ a:hover {
 
 .jane-team .title-team {
     text-align: center;
-    font-weight: 600;
-    color: red;
+    font-weight: 200;
+    color: #f3f3f3;
+    letter-spacing: 1px;
     font-family: "Calibri Light" !important;
     text-transform: uppercase;
     display: block;
-    font-size: 20px;
+    font-size: 40px;
     margin: 0 0 7px 0;
 }
 
 .jane-team .post-team {
     font-family: "Calibri Light" !important;
     text-align: center;
-    color: #222222;
+    color: #c9af97;
+    letter-spacing: 1px;
     text-transform: capitalize;
     display: block;
-    font-size: 15px;
+    font-size: 25px;
     margin-bottom: 15px;
 }
 
@@ -848,17 +904,130 @@ a:hover {
 
 .jane-team .social li a {
     border-radius: 50%;
-    font-size: 15px;
-    color: #155724;
-    border: 1p solid #c9af97;
+    font-size: 25px;
+    color: #f4f4f4;
+    border: 1p solid #c9af9744;
     display: block;
-    width: 30px;
-    height: 30px;
-    line-height: 30px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
     transition: all 0.5s ease 0s;
 }
 
 .jane-team:hover .social li a {
-    background-color: #eddbcd;
-    color: #222222;
+    background-color: #0d09054b;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    color: #e8dfdf;
+}
+
+.bg-3d {
+    background-color: #222222;
+}
+
+.text-3d {
+    color: #f3f3f3;
+}
+
+.text-3d-2 {
+    color: #c9af97;
+}
+
+.img-comp-container {
+    position: relative;
+
+    height: 720px;
+}
+
+.img-comp-img {
+    position: absolute;
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.img-comp-img img {
+    border-radius: 15px;
+    display: block;
+    vertical-align: middle;
+}
+
+.img-comp-slider {
+    position: absolute;
+    z-index: 9;
+    cursor: ew-resize;
+    width: 40px;
+    height: 40px;
+    background-color: #222222;
+    opacity: 0.7;
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 1020px) {
+    .container-figure {
+        margin-left: 0 !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .pic-jane {
+        margin-right: 100px;
+    }
+}
+
+.text-figure {
+    text-transform: uppercase;
+    color: #222222 !important;
+}
+
+.objet-figure {
+    background: linear-gradient(
+        90deg,
+        rgba(200, 174, 149, 1) 0%,
+        rgb(235, 220, 207) 100%,
+        rgb(235, 220, 207) 100%
+    );
+}
+
+.custum-cocotier {
+    border-radius: 15px;
+}
+
+.img-contact-position {
+    width: 100%;
+    height: 400px;
+    display: grid;
+    place-items: center;
+}
+
+.form-center {
+    display: grid;
+    place-items: center;
+}
+
+.bg-contact {
+    background-color: #fff;
+}
+
+.bg-contact-3 {
+    background-color: #efeae4;
+}
+
+.nav-jane-police {
+    font-family: "Calibri Light" !important;
+}
+
+.buton-center-jane {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 1080px) {
+    .responsive-image {
+        display: none; /* Cache l'image lorsque la taille de l'écran est inférieure à 1080px */
+        top: 50px;
+    }
 }
