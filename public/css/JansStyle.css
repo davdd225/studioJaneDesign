@@ -15,6 +15,38 @@
             format("svg");
 }
 
+* {
+    min-width: 0;
+    font: inherit;
+}
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+img,
+svg {
+    /* display: block;
+    height: auto; */
+    max-width: 100%;
+}
+
+body {
+    margin: 0;
+    min-height: 100dvh;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    text-wrap: balance;
+}
+
+p {
+    text-wrap: pretty;
+}
+
 .ms-jane {
     margin-left: -0.75em !important;
 }
@@ -489,13 +521,51 @@ testStudio {
     width: 400px;
     height: 70px;
 }
+
 .btn-jane-chaise:hover {
     background-color: #f4f4f4 !important;
     color: #222222 !important;
     font-size: 22px;
+    border: 1px solid #222222;
     border-radius: 8px;
     width: 400px;
     height: 70px;
+}
+
+@media screen and (max-width: 1020px) {
+    .details-btn-jane {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .jane-team .pic-jane {
+        border-radius: 50%;
+        background: #222222;
+        padding: 30px;
+        margin-bottom: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 70%;
+        height: 70%;
+        transition: all 0.5s ease 0s;
+    }
+    .body-team-jane {
+        height: 775px !important;
+    }
+
+    .size-apropos {
+        text-align: center;
+        font-size: 3em;
+        letter-spacing: 1px;
+    }
+    .text-3d {
+        text-align: center;
+    }
+    .container-respond {
+        margin-top: 40%;
+    }
 }
 
 .btn-jane-chaise-2 {
@@ -908,17 +978,17 @@ testStudio {
     color: #f4f4f4;
     border: 1p solid #c9af9744;
     display: block;
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
     transition: all 0.5s ease 0s;
 }
 
 .jane-team:hover .social li a {
     background-color: #0d09054b;
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
     color: #e8dfdf;
 }
 
@@ -975,6 +1045,20 @@ testStudio {
     .pic-jane {
         margin-right: 100px;
     }
+
+    .text-figure {
+        text-align: center;
+    }
+
+    .text-p-jane {
+        text-align: center;
+    }
+
+    .buton-center-jane {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 }
 
 .text-figure {
@@ -983,6 +1067,7 @@ testStudio {
 }
 
 .objet-figure {
+    width: 100% !important;
     background: linear-gradient(
         90deg,
         rgba(200, 174, 149, 1) 0%,
@@ -1019,15 +1104,21 @@ testStudio {
     font-family: "Calibri Light" !important;
 }
 
-.buton-center-jane {
+/* .buton-center-jane {
     display: flex;
     align-items: center;
     justify-content: center;
-}
+} */
 
 @media (max-width: 1080px) {
     .responsive-image {
         display: none; /* Cache l'image lorsque la taille de l'écran est inférieure à 1080px */
         top: 50px;
     }
+}
+
+.text-contente {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

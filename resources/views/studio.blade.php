@@ -4,7 +4,7 @@
 
 <section class=" objet-figure">
 <div class="py-vh-5  overflow-hidden">
-    <div class="container ">
+    <div class="container text-contente ">
         <div class="row d-flex ">
             <div class="col-md-6  ">
                 <div class="py-vh-5 ">
@@ -20,7 +20,7 @@
 
             </div>
 
-            <div class="col-md-6  " >
+            <div class="col-6  " >
                 <figure class="containre-figure " data-aos="fade-left">
                         <div class="img-comp-container ">
                             <div class="img-comp-img shadow">

@@ -45,34 +45,6 @@
 
 
         <div class="py-vh-2 w-100 overflow-hidden jane-img-bg-1" id="numbers">
-            <!-- <div class="container">
-              <div class="row d-flex justify-content-center align-items-center">
-                <div class="col-lg-6">
-                  <div class="py-5" data-aos="fade-right">
-                    <img class="jane-img img-fluid" src="{{asset('img/ja/acceuil_img_3.jpg')}}" alt="">
-                  </div>
-                </div>
-                <div class="col-lg-6">
-                  <div class="row">
-                  <div class="col-12">
-                    <h3 class="display-2 mb-5 text-jane-catealogue" data-aos="fade-down">Transformez votre espace avec Studio JANE design</h3>
-                  </div>
-                  <div class="col-12">
-                    <p class="text-p-jane text-justify" data-aos="fade-up">
-                      Nous ne proposons pas seulement des meubles et des décorations intérieures, mais des pièces qui racontent des histoires, qui capturent des moments et qui créent des souvenirs. Explorez notre collection pour découvrir comment chaque article peut transformer votre espace en un sanctuaire de confort et de style.
-                    </p>
-                  </div>
-                  <div class="row d-flex justify-content-center align-items-center">
-                    <div class="col-lg-12 d-flex justify-content-center align-items-center" data-aos="fade-up">
-                      <div class="details-btn-jane">
-                        <a href="{{url('/press')}}" class="btn btn-xl shadow me-3 btn-jane-chaise my-5">Voir plus</a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div> -->
           <div class="w-100 overflow-hidden bg-carousel" id="studio-section">
           <div class="w-100 overflow-hidden bg-jane-100 " id="top">
               <br>
@@ -100,7 +72,7 @@
                         </div>
                       </div>
                       <div class="col-lg-4">
-                      <h2 class="display-2 " data-aos="fade-left">Notre Collection</h2>
+                      <h2 class="display-2 mt-5" data-aos="fade-left">Notre Collection</h2>
                         <h3 class="display-7 py-5 border-top border-dark" data-aos="fade-left">Meubles en Bois de Cocotier</h3>
                         <p class="text-jane" data-aos="fade-left" data-aos-delay="200">Chaque pièce de notre collection est soigneusement conçue et fabriquée à partir de bois de cocotier de haute qualité. Nous croyons en l'alliance entre l'esthétique contemporaine et la chaleur naturelle du bois, créant ainsi des meubles uniques qui s'intègrent parfaitement à tout style d'intérieur.
                         </p>
@@ -189,7 +161,7 @@
                   </div>
                   <div class="row d-flex justify-content-start align-items-start">
                     <div class="col-lg-12  d-flex justify-content-start align-items-start " data-aos="fade-up">
-                         <div class="details-btn-jane">
+                         <div class="col-12 details-btn-jane ">
                             <a  href="{{url('/studio')}}" class="btn  btn-xl shadow me-3 btn-jane-chaise my-5">
                              Projet
                             </a>

@@ -1,7 +1,7 @@
 
 @extends('layouts.layout')
 @section('content')
-<section class="containter-fluid bg-contact-3 justify-content-center"> 
+<section class="container-respond containter-fluid bg-contact-3 justify-content-center"> 
 <section class="container bg-contact"> 
         <div class="img-contact-position responsive-image" data-aos="fade-left">
             <img src="{{asset('img/jane-designe.png')}}" alt="" width="600" height="600" class="responsive-image">
@@ -18,46 +18,48 @@
                        </div>
                    </div> 
                    @endif 
-                   <main class="mb-auto col-6 justify-content-center " >
+                   <main class="mb-12 col-6 justify-content-center " >
                        <form id="form" class="row form" onsubmit="return validateForm()" method="POST" action="{{ url('/contact') }}">
                        @csrf
                            <div class="contact-section">
-                             <div class="mb-3">
+                             <div class="mb-6">
                                <label for="name" class="form-label">Nom</label>
                                <input type="text" class="form-control form-control-lg" id="name" name="name" required>
                              </div>
-                             <div class="mb-3">
+                             <div class="mb-6">
                                <label for="firstName" class="form-label">Prénom</label>
                                <input type="text" class="form-control form-control-lg" id="firstName" name="firstName" required>
                              </div>
-                             <div class="mb-3">
+                             <div class="mb-6">
                                <label for="number" class="form-label">Numéro de Téléphone</label>
                                <input type="tel" class="form-control form-control-lg" id="number" name="number" required>
                              </div>
-                             <div class="mb-3">
+                             <div class="mb-6">
                                <label for="exampleInputEmail1" class="form-label">Adresse Email</label>
                                <input type="email" class="form-control form-control-lg" id="exampleInputEmail1" name="email" required>
                              </div>
-                             <div class="mb-3">
+                             <div class="mb-6">
                                <label for="calendar" class="form-label">Calendrier</label>
                                <input name="calendar" class="form-control form-control-lg" id="calendar" type="date" value="2017-06-01" required></input>
                              </div>
-                             <div class="mb-3">
+                             <div class="mb-6">
                                 <label for="services" class="form-label">Services</label>
                                  <select name ="services" class="form-control form-control-lg mb-3" aria-label=".form-control-lg example">
-                                  <option selected>Open this select menu</option>
-                                  <option value="1">One</option>
-                                  <option value="2">Two</option>
-                                  <option value="3">Three</option>
+                                  <option selected>Ouvrez ce menu de sélection</option>
+                                  <option value="1">Deco intérieure</option>
+                                  <option value="2">Conception 3D</option>
+                                  <option value="3">Rénovation</option>
+                                  <option value="3">Conseils</option>
+                                  <option value="3">Autres</option>
                                 </select>
                              </div>
-                             <div class="mb-3">
+                             <div class="mb-6">
                              <label for="message" class="form-label">Message:</label>
                              <textarea class="form-control" name="message" rows="4" required></textarea>
                              </div>
-                             <p class="small text-muted mb-5">En créant un compte, vous acceptez nos conditions d'utilisation bien cachées. Elles sont quelque part ici... pour des raisons légales... mais vous ne les trouveriez pas!</p>
-                             <div class=" col-12 text-center">
-                             <a type="submit" class="  mb-5 btn btn-xl shadow me-3 btn-jane-chaise">Envoyer</a> 
+                             <p class="small text-muted mb-5">Dites-nous comment nous pouvons vous aider ! Partagez vos besoins dans le champ message ci-dessous.</p>
+                             <div class=" col-12 details-btn-jane">
+                                 <a type="submit" class="  mb-5 btn btn-xl  me-3 btn-jane-chaise">Envoyer</a> 
                              </div>                   
                            </div>
                        </form>
