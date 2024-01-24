@@ -4,7 +4,7 @@
 
 <section class=" objet-figure">
 <div class="py-vh-5  overflow-hidden">
-    <div class="container text-contente ">
+    <div class="container ">
         <div class="row d-flex ">
             <div class="col-md-6  ">
                 <div class="py-vh-5 ">
@@ -20,8 +20,8 @@
 
             </div>
 
-            <div class="col-6  " >
-                <figure class="containre-figure " data-aos="fade-left">
+            <div class="col-md-6  " >
+                <figure class="containre-figure pc-version" data-aos="fade-left">
                         <div class="img-comp-container ">
                             <div class="img-comp-img shadow">
                                 <img src="{{asset('img/ja/renive_2.jpg')}}" alt="" width="550" height="720">
@@ -59,7 +59,7 @@
                 <div class="transparent-box">
                     <div class="caption">
                         <p class="text-for-img">{{ $service->nom_service_jane }}</p>
-                        <p class="color-opacity">Interieur design</p>
+                        <!-- <p class="color-opacity">Interieur design</p> -->
                     </div>
                 </div>
             </a>

@@ -18,8 +18,8 @@
           </div>
         </section>
         <section class="jane-img-bg-1">
-            <div class="container">
-                <div class="row align-items-center">
+            <div class="container d-flex justify-content-center align-items-center">
+                <div class="row align-items-center mb-5">
                     
                     <!-- Colonne pour le texte -->
                     <div class="col-md-6 d-flex justify-content-center align-items-center" data-aos="fade-down">
@@ -44,7 +44,7 @@
         </section>
 
 
-        <div class="py-vh-2 w-100 overflow-hidden jane-img-bg-1" id="numbers">
+        <div class=" w-100 overflow-hidden jane-img-bg-1" id="numbers">
           <div class="w-100 overflow-hidden bg-carousel" id="studio-section">
           <div class="w-100 overflow-hidden bg-jane-100 " id="top">
               <br>

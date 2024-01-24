@@ -6,8 +6,8 @@ use App\Http\Controllers\AboutustController;
 use App\Http\Controllers\ClientController;
 use App\Http\Controllers\AccueilController;
 use App\Http\Controllers\PressController;
-use App\Http\Controllers\DetailsController;
-
+// use App\Http\Controllers\DetailsController;
+use App\Http\Controllers\MentioinController;
 
 /*
 |--------------------------------------------------------------------------
@@ -24,6 +24,9 @@ Route::get('/', function () {
     return view('accueil');
 });
 
+/* `Route::get('/furniture', [PressController::class, 'index']);` is defining a GET route for the
+'/furniture' URL. When a user visits this URL, the 'index' method of the 'PressController' class
+will be executed. */
 Route::get('/furniture', [PressController::class, 'index']);
 
 Route::get('/furniture/details/{id}', [PressController::class, 'funriturePress']);
@@ -35,6 +38,8 @@ Route::get('/studio',  [StudioController::class, 'index']);
 Route::get('/studio/galerie/{id}',  [StudioController::class, 'meubleLonely']);
 
 Route::get('/aboutus',[AboutustController::class,'index']);
+
+Route::get('/mentions-legales', [MentioinController::class,'index']);
 
 // Route::get('/details',[DetailsController::class, 'index']);
 
