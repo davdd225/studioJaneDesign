@@ -869,7 +869,14 @@ testStudio {
     float: left;
 }
 .text-apropos-2 {
-    font-size: 1.5em;
+    font-size: 1.7em;
+}
+
+@media (max-width: 1200px) {
+    .jane-media {
+        margin-top: 100px;
+        /* Deux images par ligne sur les écrans de moins de 1200px */
+    }
 }
 
 .center-apropos {
@@ -1138,4 +1145,15 @@ testStudio {
 .back-apropos {
     margin-top: 140px;
     background-color: #222222;
+}
+
+.jane-livraison {
+    width: 100%;
+    object-fit: scale-down;
+
+}
+
+.jane-livraison-2 {
+    width: 100%;
+    object-fit: scale-down;
 }

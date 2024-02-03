@@ -46,8 +46,7 @@
 
         <div class=" w-100 overflow-hidden jane-img-bg-1" id="numbers">
           <div class="w-100 overflow-hidden bg-carousel" id="studio-section">
-          <div class="w-100 overflow-hidden bg-jane-100 " id="top">
-              <br>
+            <div class="w-100 overflow-hidden bg-jane-100 " id="top">
               <br>
               <br> 
               <div class="container position-relative ">     
@@ -72,7 +71,7 @@
                         </div>
                       </div>
                       <div class="col-lg-4">
-                      <h2 class="display-2 mt-5" data-aos="fade-left">Notre Collection</h2>
+                        <h2 class="display-2 mt-5" data-aos="fade-left">Notre Collection</h2>
                         <h3 class="display-7 py-5 border-top border-dark" data-aos="fade-left">Meubles en Bois de Cocotier</h3>
                         <p class="text-jane" data-aos="fade-left" data-aos-delay="200">Chaque pièce de notre collection est soigneusement conçue et fabriquée à partir de bois de cocotier de haute qualité. Nous croyons en l'alliance entre l'esthétique contemporaine et la chaleur naturelle du bois, créant ainsi des meubles uniques qui s'intègrent parfaitement à tout style d'intérieur.
                         </p>
@@ -172,6 +171,7 @@
               </div>
             </div>
           </div>
+        </div>
   
 
   <script>
