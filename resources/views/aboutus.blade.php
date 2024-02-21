@@ -75,7 +75,7 @@
                       <div class="row d-flex justify-content-between align-items-center">
                       <div class="col-lg-4">
                           <div class="col-md-9 flex-fill">
-                              <div class="text-apropos-2 border-top">
+                              <div class="text-apropos-2">
                                 <ul>
                                   <li class="mb-2" data-aos="fade-up">Utilisation de logiciels avancés de conception pour traduire la vision du client en concepts virtuels, en mettant l'accent sur les détails spécifiques fournis par le client.</li>
                                   <li class="mb-2" data-aos="fade-up">Création de modèles 3D détaillés basés sur les concepts virtuels, permettant une visualisation réaliste de la future décoration intérieure.</li>
@@ -119,14 +119,14 @@
                               </div>
                             </div>
                             <div class="col-md-6">
-                              <div class="col-12 shadow ratio rounded bg-cover mt-5 bp-center" data-aos="fade-left" style="background-image: url('img/Plan3D_3.jpg');--bs-aspect-ratio: 150%;">
+                              <div class="col-12 mb-5 shadow ratio rounded bg-cover mt-5 bp-center" data-aos="fade-left" style="background-image: url('img/Plan3D_3.jpg');--bs-aspect-ratio: 150%;">
                               </div>
                             </div>
                           </div>
                       </div>
                       <div class="col-lg-4">
                           <div class="col-md-9 flex-fill">
-                              <div class="text-apropos-2 border-top">
+                              <div class="text-apropos-2">
                                 <ul>
                                   <li class="mb-2"  data-aos="fade-up">Engagement envers des pratiques de conception et de fabrication durables.</li>
                                   <li class="mb-2"  data-aos="fade-up">Chaque projet est conçu sur mesure pour répondre aux exigences uniques.</li>
@@ -139,28 +139,26 @@
                        </div>
                     </div>
                   </div>
-              </div>             
+              </div>              
           </section>
 
          <section>        
-            <div class="py-vh-5 w-100">
+            <div class="py-vh-2 w-100">
                   <div class="d-flex justify-content-center"  data-aos="fade-up">
                       <h1 class="size-apropos fw-light ">NOS VALEURS</h1> 
                   </div>
             </div>
-            <div class=" container opy-vh-5 w-100" ">
-              <div class="row"> 
-                  <div class="col-md-6 col-md-5 col-lg-6  ">
-                    <img src="{{asset('img/jane-designe.png')}}" class="img-fluid   " alt="article image" data-aos="fade" >
-                  </div>
-                  <div class="col-sm-6 col-md-5 offset-md-2 col-lg-6 offset-lg-0">
-                        <p class="text-propos  p-3 pt-0 ps-0">
-                          Studio Jane Design incarne l'excellence dans le design et l'architecture, fondée sur des conceptions robustes et une minutie exceptionnelle, avec une approche profondément enracinée dans les principes modernistes. Chaque projet, méticuleusement élaboré, témoigne de l'engagement de Studio Jane à créer des espaces à la fois stylistiquement intemporels et fonctionnellement pérennes.
-                        </p>
-                  </div>
+            <div class=" container opy-vh-2 w-100" ">
+              <div class="row align-items-center">
+                <div class="col mb-5">
+                    <img src="{{asset('img/jane-designe-2.png')}}" class="img-fluid img-top mx-auto d-block" alt="studio jane" data-aos="fade">
                 </div>
-              </div>        
-          </div>
+                <div class="col-12 text-center data-aos="fade"">
+                    <p class="text-propos" >
+                        Studio Jane Design incarne l'excellence dans le design et l'architecture, fondée sur des conceptions robustes et une minutie exceptionnelle, avec une approche profondément enracinée dans les principes modernistes. Chaque projet, méticuleusement élaboré, témoigne de l'engagement de Studio Jane à créer des espaces à la fois stylistiquement intemporels et fonctionnellement pérennes.
+                    </p>
+                </div>
+            </div>
         </section>
        <!--FIN ca  -->
        <section>

@@ -131,13 +131,25 @@ testStudio {
 .text-catalogue-jane {
     color: #222222;
 }
-
-.text-p-jane {
-    font-size: 25px !important;
-    text-align: left;
+.text-p-jane-studio {
+    font-size: 30px !important;
+    margin-bottom: 8%;
+    letter-spacing: 1;
+    width: 500px;
     color: #222222 !important;
     font-family: "Calibri Light" !important;
-    line-height: 1.3;
+    line-height: 1.5;
+    text-wrap: pretty !important;
+}
+
+.text-p-jane {
+    font-size: 30px !important;
+    margin-bottom: 8%;
+    letter-spacing: 1;
+    width: 600px;
+    color: #222222 !important;
+    font-family: "Calibri Light" !important;
+    line-height: 1.5;
     text-wrap: pretty !important;
 }
 .text-jane-description {
@@ -862,11 +874,12 @@ testStudio {
     width: 250px;
 }
 .text-propos {
+    padding: 8px;
     font-size: 1.6em;
     line-height: 1.6;
     letter-spacing: 0.2px;
     color: #343a40;
-    float: left;
+    text-wrap: balance;
 }
 .text-apropos-2 {
     font-size: 1.7em;
@@ -876,6 +889,14 @@ testStudio {
     .jane-media {
         margin-top: 100px;
         /* Deux images par ligne sur les écrans de moins de 1200px */
+    }
+}
+
+@media (max-width: 1200px) {
+    .style-text-jane {
+        padding: 5px;
+        font-size: 4.5vw;
+        text-wrap: balance;
     }
 }
 
@@ -1051,6 +1072,7 @@ testStudio {
     }
 
     .text-figure {
+        font-size: 10vw;
         text-align: center;
     }
 
@@ -1150,10 +1172,16 @@ testStudio {
 .jane-livraison {
     width: 100%;
     object-fit: scale-down;
-
 }
 
 .jane-livraison-2 {
     width: 100%;
     object-fit: scale-down;
+}
+.img-top {
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
+.jane-img-bg-1 {
 }

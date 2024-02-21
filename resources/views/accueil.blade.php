@@ -20,18 +20,17 @@
         <section class="jane-img-bg-1">
             <div class="container d-flex justify-content-center align-items-center">
                 <div class="row align-items-center mb-5">
-                    
-                    <!-- Colonne pour le texte -->
-                    <div class="col-md-6 d-flex justify-content-center align-items-center" data-aos="fade-down">
-                        <div class="text-center">
-                            <h3 class="display-2 mb-4 text-jane-catealogue">Transformez votre espace avec Studio JANE design</h3>
-                            <p class="text-p-jane text-justify mb-5" data-aos="fade-up">
-                                Nous ne proposons pas seulement des meubles et des décorations intérieures, mais des pièces qui racontent des histoires, qui capturent des moments et qui créent des souvenirs. Explorez notre collection pour découvrir comment chaque article peut transformer votre espace en un sanctuaire de confort et de style.
+                    <div class="col-md-6  ">
+                        <div class="py-vh-5 ">
+                            <h1 class="display-2 text-figure  mb-5" data-aos="fade-down">Transformez votre espace avec Studio JANE design</h1>
+                            <p class="mb-6 text-p-jane-studio style-text-jane  " data-aos="fade-up">
+                            Nous ne proposons pas seulement des meubles et des décorations intérieures, mais des pièces qui racontent des histoires, qui capturent des moments et qui créent des souvenirs. Explorez notre collection pour découvrir comment chaque article peut transformer votre espace en un sanctuaire de confort et de style.
                             </p>
-                            <a href="#studio-section" class= " mb-5 btn btn-xl shadow me-3 btn-jane-chaise mb-4">Voir plus</a> <!-- Espacement avec mb-4 -->
+                            <div class="buton-center-jane">
+                            <a href="#studio-section" class= " mb-5 btn btn-xl shadow me-3 btn-jane-chaise mb-4"  data-aos="fade-up">Voir plus</a> <!-- Espacement avec mb-4 -->
+                            </div>
                         </div>
                     </div>
-
                     <!-- Colonne pour l'image -->
                     <div class="col-md-6 d-flex justify-content-center align-items-center" data-aos="fade-right">
                         <div class="text-center jane-img-bg custum-cocotier">
@@ -71,8 +70,8 @@
                         </div>
                       </div>
                       <div class="col-lg-4">
-                        <h2 class="display-2 mt-5" data-aos="fade-left">Notre Collection</h2>
-                        <h3 class="display-7 py-5 border-top border-dark" data-aos="fade-left">Meubles en Bois de Cocotier</h3>
+                        <h2 class="display-2 mt-5" data-aos="fade-left">Nos Meubles</h2>
+                        <h3 class="display-7 py-5 border-top border-dark " data-aos="fade-left">Fait en Bois de Cocotier</h3>
                         <p class="text-jane" data-aos="fade-left" data-aos-delay="200">Chaque pièce de notre collection est soigneusement conçue et fabriquée à partir de bois de cocotier de haute qualité. Nous croyons en l'alliance entre l'esthétique contemporaine et la chaleur naturelle du bois, créant ainsi des meubles uniques qui s'intègrent parfaitement à tout style d'intérieur.
                         </p>
                       </div>
@@ -87,7 +86,7 @@
                             <br>
                             <br>
                             <h3 class="display-3  py-vh-2 border-bottom  " data-aos="fade-left">Le bois de cocotier : Une élégance naturelle</h3>
-                            <h4 class="display-7  py-vh-2 border-top border-dark text-materiaux-jane" data-aos="fade-left"> Caractéristiques Principales</h4>
+                            <h4 class="display-7  py-vh-2 border-top border-dark " data-aos="fade-left"> Caractéristiques principales</h4>
 
                             <div  class="text-jane" data-aos="fade-left" data-aos-delay="200">
                             <ul>

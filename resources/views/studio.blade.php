@@ -9,15 +9,14 @@
             <div class="col-md-6  ">
                 <div class="py-vh-5 ">
                     <h1 class="display-2 text-figure  mb-5" data-aos="fade-down">Travaux et réalisation</h1>
-                    <p class="text-p-jane text-justify mb-5" data-aos="fade-up">
+                    <p class="mb-6 text-p-jane-studio " data-aos="fade-up">
                     Nos réalisations, témoigne notre passion pour l'artisanat et l'excellence. 
                     Chaque projet reflète notre dévouement à créer des espaces intérieurs à la fois élégants et fonctionnels.
                     </p>
                     <div class="buton-center-jane">
-                    <a href="#studio-section" class= " mb-5 btn btn-xl shadow me-3 btn-jane-chaise mb-4"  data-aos="fade-up">Voir plus</a> <!-- Espacement avec mb-4 -->
+                    <a href="#studio-section" class= " mb-5 btn btn-xl  me-3 btn-jane-chaise mb-4"  data-aos="fade-up">Voir plus</a> <!-- Espacement avec mb-4 -->
                     </div>
                 </div>
-
             </div>
 
             <div class="col-md-6  " >
