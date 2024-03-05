@@ -15,19 +15,21 @@
             format("svg");
 }
 
-* {
-    min-width: 0;
-    font: inherit;
-}
+/* Réinitialisation des styles de base */
 *,
 *::before,
 *::after {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
+    min-width: 0; /* Réinitialisation de la largeur minimale */
+    font: inherit; /* Héritage de la police de caractères */
 }
 
+/* Styles spécifiques au corps (`<body>`) */
 body {
-    margin: 0;
-    min-height: 100dvh;
+    min-height: 100vh;
+    /* Utilisation de `vh` pour la hauteur minimale */
 }
 
 h1,
@@ -141,12 +143,17 @@ testStudio {
     line-height: 1.5;
     text-wrap: pretty !important;
 }
+.align-text {
+    display: grid;
+    place-items: center;
+}
 
 .text-p-jane {
-    font-size: 30px !important;
+    /* font-size: 30px !important; */
+    text-align: center;
     margin-bottom: 8%;
     letter-spacing: 1;
-    width: 600px;
+    /* width: 600px; */
     color: #222222 !important;
     font-family: "Calibri Light" !important;
     line-height: 1.5;
@@ -366,6 +373,45 @@ testStudio {
         font-family: "Calibri", sans-serif !important;
         animation: slide-in 0.5s ease-in-out forwards;
     }
+
+    .text-p-jane-studio {
+        font-size: 20px !important;
+        margin-bottom: 8%;
+        letter-spacing: 1;
+        width: 360px;
+        color: #222222 !important;
+        font-family: "Calibri Light" !important;
+        line-height: 1.5;
+        text-align: center;
+        text-wrap: pretty !important;
+    }
+
+    .text-center-2 {
+        display: grid;
+        place-items: center;
+    }
+
+    .img-jane-view {
+        width: 100% !important;
+    }
+    nav {
+        width: 100% !important;
+    }
+    .text-apropos-2 {
+        font-size: 1.3em !important;
+    }
+    .mt-5 {
+        margin-top: 5% !important;
+    }
+}
+
+.text-center-grid {
+    display: grid;
+    place-items: center;
+}
+
+.marge {
+    margin-top: 1%;
 }
 
 /* .bg-carousel {
@@ -458,23 +504,6 @@ testStudio {
     color: #155724;
 }
 
-/* .bg-bannier-jane{
-    background-color:#e8e6d0;
-  }
-
-  .banner-jane{
-    background-image: url('/img/banniere-jane-2.jpg');
-    width: 100%;
-    height: 600px;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: contain;
-    border-radius: 70px;
-   
-  
-  } */
-
 .banner-jane::before {
     content: "";
     position: absolute;
@@ -495,7 +524,6 @@ testStudio {
     font-size: 85px;
     font-family: "Open Sans", sans-serif;
     font-weight: 800;
-    /* text-transform: uppercase; */
     text-align: center;
 }
 
@@ -521,10 +549,11 @@ testStudio {
     margin-right: 10px;
 }
 .btn-jane-chaise {
-    background-color: #222222;
-    color: #f4f4f4;
+    background-color: #222222 !important;
+
+    color: #f4f4f4 !important;
     font-size: 22px;
-    border-radius: 8px;
+    border-radius: 8px !important;
     width: 400px;
     height: 70px;
 }
@@ -532,14 +561,35 @@ testStudio {
 .btn-jane-chaise:hover {
     background-color: #f4f4f4 !important;
     color: #222222 !important;
+    border: 1px solid #222222 !important;
     font-size: 22px;
     border: 1px solid #222222;
-    border-radius: 8px;
+    border-radius: 8px !important;
     width: 400px;
     height: 70px;
+    transition: all 0.5s ease 0s;
 }
 
 @media screen and (max-width: 1020px) {
+    .btn-jane-chaise {
+        background-color: #222222 !important;
+        color: #f4f4f4 !important;
+        font-size: 22px;
+        border-radius: 8px !important;
+        width: 300px;
+        height: 70px;
+    }
+
+    .btn-jane-chaise:hover {
+        background-color: #f4f4f4 !important;
+        color: #222222 !important;
+        font-size: 22px;
+        border: 1px solid #222222;
+        border-radius: 8px;
+        width: 300px;
+        height: 70px;
+    }
+
     .details-btn-jane {
         display: flex;
         align-items: center;
@@ -570,23 +620,27 @@ testStudio {
     .text-3d {
         text-align: center;
     }
+    .text_3d_2 {
+        text-align: center;
+        color: #222222;
+    }
     .container-respond {
         margin-top: 40%;
     }
 }
 
 .btn-jane-chaise-2 {
-    background-color: #f4f4f4;
-    color: #222222;
+    background-color: #f4f4f4 !important;
+    color: #222222 !important;
     font-size: 22px;
-    border-radius: 8px;
+    border-radius: 8px !important;
     width: 400px;
     height: 70px;
 }
 .btn-jane-chaise-2:hover {
     background-color: #222222 !important;
-    border: 1px solid #c9af97;
-    color: #c9af97 !important;
+    border: 1px solid #f4f4f4 !important;
+    color: #f4f4f4 !important;
     font-size: 22px;
     border-radius: 8px;
     width: 400px;
@@ -637,7 +691,7 @@ testStudio {
 
 .hero-image {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-        url("/img/canaper.jpg");
+        url("/img/img-bg.jpg");
     width: 100%;
     height: 500px;
     background-position: center;
@@ -656,8 +710,6 @@ testStudio {
 }
 
 .hero-image-3 {
-    /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-        url("/img/banniere-jane-2.jpg"); */
     width: 100%;
     height: 600px;
     object-fit: contain;
@@ -746,6 +798,13 @@ testStudio {
             100% - 20px
         ); /* Une image par ligne sur les écrans de moins de 768px */
     }
+    .text-for-img {
+        /* color: #f4f4f4; */
+        font-size: 25px;
+        letter-spacing: 5px !important;
+        font-family: "Calibri Light" !important;
+        text-transform: uppercase;
+    }
 }
 
 .gallery-image img {
@@ -767,7 +826,7 @@ testStudio {
 
 .text-for-img {
     /* color: #f4f4f4; */
-    font-size: 35px;
+    font-size: 25px;
     letter-spacing: 5px !important;
     font-family: "Calibri Light" !important;
     text-transform: uppercase;
@@ -1072,18 +1131,18 @@ testStudio {
     }
 
     .text-figure {
-        font-size: 10vw;
-        text-align: center;
+        font-size: 7vw;
+        text-align: center !important;
     }
 
     .text-p-jane {
-        text-align: center;
+        text-align: center !important;
     }
 
     .buton-center-jane {
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        /* display: grid;
+        place-items: center; */
+        margin-left: 5%;
     }
 }
 
@@ -1129,12 +1188,6 @@ testStudio {
 .nav-jane-police {
     font-family: "Calibri Light" !important;
 }
-
-/* .buton-center-jane {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-} */
 
 @media (max-width: 1080px) {
     .responsive-image {
@@ -1183,5 +1236,6 @@ testStudio {
     margin-left: 10%;
 }
 
-.jane-img-bg-1 {
+.btn .trans {
+    transition: all 0.5s ease-in-out 0s !important;
 }

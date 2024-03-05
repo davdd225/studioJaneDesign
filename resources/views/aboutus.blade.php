@@ -2,19 +2,20 @@
 @extends('layouts.layout')
 @section('content')
 
-    <div class="row py-vh-5  justify-content-center back-apropos ">   
-        <div class="col-12 ">
-            <div class="hero-image-3" data-aos="fade">
-                <div class="hero-text-about-2">
-                    <h1 style="font-size:100px">A PROPOS... </h1>
-                </div>
+     <div class="py-vh-5 marge w-100 overflow-hidden ">
+            <div class="row  justify-content-center ">   
+                <div class="col-12 ">
+                <div class="hero-image"  data-aos="fade">
+                    <div class="hero-text">
+                        <h1 style="font-size:80px">A PROPOS</h1>
+                    </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
     <div class="py-vh-2 w-100">
-           <div class="d-flex justify-content-center"  data-aos="fade-up">
-              <h1 class="size-apropos fw-light ">COMMENT CA MARCHE</h1> 
+           <div class="d-flex justify-content-center"  data-aos="fade">
+              <h2 class="display-2 text-figure size-apropos fw-light ">COMMENT CA MARCHE</h2> 
            </div>
     </div>
 
@@ -26,7 +27,7 @@
               <div class="container position-relative ">     
                 </div>
                 <div class="py-vh-5 w-100 overflow-hidden" id="aboutus">
-                  <div class="container">
+                  <div class="container ">
                         <div class="row d-flex justify-content-between align-items-center">
                             <div class="col-lg-6">
                               <div class="row gx-5 d-flex">
@@ -38,7 +39,7 @@
                                   <div class="shadow ratio ratio-1x1 rounded bg-cover mt-5 bp-center float-end" data-aos="fade-up" style="background-image: url('img/plan_1.jpg');">
                                   </div>
                                 </div>
-                                <div class="col-md-6">
+                                <div class="col-md-6 mb-5">
                                   <div class="col-12 shadow ratio rounded bg-cover mt-5 bp-center" data-aos="fade-left" style="background-image: url('img/plan_3.png');--bs-aspect-ratio: 150%;">
                                   </div>
                                 </div>
@@ -47,7 +48,8 @@
                           <div class="col-lg-4 jane-media">
                             <p class="text-jane" data-aos="fade-left" data-aos-delay="200">
                               <div class="col-md-9 flex-fill">
-                                <div class="text-apropos-2">
+                              <span class="h5 fw-lighter ">01.</span>
+                                <div class="text-apropos-2 border-top border-darkd">
                                   <ul>
                                     <li class="mb-2"  data-aos="fade-up">Rendez-vous à votre domicile avec un professionnel</li>
                                     <li class="mb-2"  data-aos="fade-up">Plan état des lieux</li>
@@ -75,7 +77,8 @@
                       <div class="row d-flex justify-content-between align-items-center">
                       <div class="col-lg-4">
                           <div class="col-md-9 flex-fill">
-                              <div class="text-apropos-2">
+                          <span class="h5 fw-lighter ">02.</span>
+                              <div class="text-apropos-2 border-top border-dark">
                                 <ul>
                                   <li class="mb-2" data-aos="fade-up">Utilisation de logiciels avancés de conception pour traduire la vision du client en concepts virtuels, en mettant l'accent sur les détails spécifiques fournis par le client.</li>
                                   <li class="mb-2" data-aos="fade-up">Création de modèles 3D détaillés basés sur les concepts virtuels, permettant une visualisation réaliste de la future décoration intérieure.</li>
@@ -126,7 +129,8 @@
                       </div>
                       <div class="col-lg-4">
                           <div class="col-md-9 flex-fill">
-                              <div class="text-apropos-2">
+                          <span class="h5 fw-lighter">03.</span>
+                              <div class="text-apropos-2 border-top border-dark">
                                 <ul>
                                   <li class="mb-2"  data-aos="fade-up">Engagement envers des pratiques de conception et de fabrication durables.</li>
                                   <li class="mb-2"  data-aos="fade-up">Chaque projet est conçu sur mesure pour répondre aux exigences uniques.</li>
@@ -145,7 +149,7 @@
          <section>        
             <div class="py-vh-2 w-100">
                   <div class="d-flex justify-content-center"  data-aos="fade-up">
-                      <h1 class="size-apropos fw-light ">NOS VALEURS</h1> 
+                      <h1 class="display-2 text-figure size-apropos fw-light ">NOS VALEURS</h1> 
                   </div>
             </div>
             <div class=" container opy-vh-2 w-100" ">
@@ -154,7 +158,7 @@
                     <img src="{{asset('img/jane-designe-2.png')}}" class="img-fluid img-top mx-auto d-block" alt="studio jane" data-aos="fade">
                 </div>
                 <div class="col-12 text-center data-aos="fade"">
-                    <p class="text-propos" >
+                    <p class="text-propos " >
                         Studio Jane Design incarne l'excellence dans le design et l'architecture, fondée sur des conceptions robustes et une minutie exceptionnelle, avec une approche profondément enracinée dans les principes modernistes. Chaque projet, méticuleusement élaboré, témoigne de l'engagement de Studio Jane à créer des espaces à la fois stylistiquement intemporels et fonctionnellement pérennes.
                     </p>
                 </div>
@@ -164,7 +168,7 @@
        <section>
         <div class="py-vh-2 mb-5 mt-5 w-100">
             <div class="d-flex justify-content-center">
-            <h2 class="size-apropos fw-light ">EQUIPE</h2> 
+            <h2 class=" display-2 text-figure size-apropos fw-light ">EQUIPE</h2> 
             </div>
         </div>
           <div class="body-team-jane hero-image-2">
@@ -195,7 +199,7 @@
      <section class="bg-3d">
             <div class="py-vh-3 w-100">
                 <div class="d-flex justify-content-center">
-                     <h3 class="size-apropos  fw-light text-3d">EXPLORATION VIRTUELLE</h3> 
+                     <h3 class="display-2 text-figure size-apropos  fw-light text-3d">EXPLORATION VIRTUELLE</h3> 
                 </div>
             </div>
            <div class="container py-vh-4 w-100 overflow-hidden ">

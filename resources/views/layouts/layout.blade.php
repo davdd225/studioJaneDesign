@@ -6,11 +6,15 @@
       <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
       <title>Studio Jane design</title>
       <link href="{{url('https://db.onlinewebfonts.com/c/8922aedb2c18008da7daf4f93fd60bdc?family=Calibri+Light')}}" rel="stylesheet">
-      <link href="{{url('https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css')}}" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+      <!-- <link href="{{url('https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css')}}" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous"> -->
       <link rel="icon" href="{{asset('/img/ja.ico')}}" type="image/xl-icon">
-      <link rel="stylesheet" href="{{asset('css/theme.min.css')}}">
+      <link rel="stylesheet" href="{{asset('bootstrap-5.3.1-dist/css/bootstrap.min.css')}}">
       <link rel="stylesheet" href="{{asset('css/JansStyle.css')}}">
+      <link rel="stylesheet" href="{{asset('css/theme.min.css')}}">
       <link rel="stylesheet" href="{{asset('css/carousel.css')}}">
+
+
+      
       
 
 
@@ -26,7 +30,7 @@
               url('./fonts/inter-v12-latin-300.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
         }
 
-        @font-face {
+        @font-face {  
           font-family: 'Inter';
           font-style: normal;
           font-weight: 500;
@@ -46,13 +50,26 @@
        }
     </style>
   </head>
-     <body data-bs-spy="scroll" data-bs-target="#navScroll">   
-       @include('layouts.partial.header')
-       <main>
-        @yield('content')
-       </main>
-       @include('layouts.partial.footer')
-       <script src="{{url('https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js')}}" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+     <body data-bs-spy="scroll" data-bs-target="#navScroll">
+         
+              <!-- En-tête -->
+          <header>
+              @include('layouts.partial.header')
+          </header>
+
+          <!-- Contenu principal -->
+          <main>
+              @yield('content')
+          </main>
+
+          <!-- Pied de page -->
+          <footer>
+              @include('layouts.partial.footer')
+          </footer>
+
+   <!-- Scripts -->
+       <script src="{{asset('bootstrap-5.3.1-dist/js/bootstrap.bundle.min.js')}}">
+      //  <script src="{{url('https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js')}}" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
        <script src="{{asset('js/bootstrap.bundle.min.js')}}"></script>
        <script src="{{asset('js/aos.js')}}"></script>
        <script>

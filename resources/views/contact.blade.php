@@ -63,12 +63,10 @@
                              </div>                   
                            </div>
                        </form>
-                   </main>
-               
+                   </main>           
             </div>
-   </div>
-
-</section>
+       </div>
+    </section>
 </section>
 
             

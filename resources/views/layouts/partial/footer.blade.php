@@ -1,4 +1,4 @@
-<footer class="bg-jane  nav-jane-police">
+<div class="bg-jane  nav-jane-police">
     <div class="container small border-top bg-jane">
     <div class="row  d-flex justify-content-between">
 
@@ -40,5 +40,5 @@
     </div>
     <div class="container text-center py-3 small">Copyright 2023 tout droit reservé <a href="" class="link-fancy" target="_blank"></a>
     </div>
-</footer>
+</div>
 

@@ -28,26 +28,15 @@ Route::get('/', function () {
 '/furniture' URL. When a user visits this URL, the 'index' method of the 'PressController' class
 will be executed. */
 Route::get('/furniture', [PressController::class, 'index']);
-
 Route::get('/furniture/details/{id}', [PressController::class, 'funriturePress']);
-
 Route::get('/accueil', [AccueilController::class, 'index']);
-
 Route::get('/studio',  [StudioController::class, 'index']);
-
 Route::get('/studio/galerie/{id}',  [StudioController::class, 'meubleLonely']);
-
 Route::get('/aboutus',[AboutustController::class,'index']);
-
 Route::get('/mentions-legales', [MentioinController::class,'index']);
-
 // Route::get('/details',[DetailsController::class, 'index']);
-
 // Route::get('/galerie', [GalerieController::class, 'index']);
-
-
 Route::get('/contact',[ClientController::class, 'index']);
-
 Route::post('/contact',[ClientController::class, 'store']);
 
 

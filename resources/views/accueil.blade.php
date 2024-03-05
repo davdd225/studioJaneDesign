@@ -1,7 +1,6 @@
 @extends('layouts.layout')
 @section('content')
-
-      <section class="carousel-container py-vh-5 jane-img-bg-1">
+      <section class="carousel-container py-vh-5 jane-img-bg-1 ">
           <div class="carousel">
             <div class="carousel-slide">
               <img src="{{asset('img\img-carousel\img_1.jpg')}}" alt="Image 1" class="carousel-img" >
@@ -21,28 +20,29 @@
             <div class="container d-flex justify-content-center align-items-center">
                 <div class="row align-items-center mb-5">
                     <div class="col-md-6  ">
-                        <div class="py-vh-5 ">
-                            <h1 class="display-2 text-figure  mb-5" data-aos="fade-down">Transformez votre espace avec Studio JANE design</h1>
+                        <div class="py-vh-5 text-center-2">
+                            <h1 class="display-2 text-figure   mb-5" data-aos="fade-down">Transformez votre espace avec Studio JANE design</h1>
                             <p class="mb-6 text-p-jane-studio style-text-jane  " data-aos="fade-up">
                             Nous ne proposons pas seulement des meubles et des décorations intérieures, mais des pièces qui racontent des histoires, qui capturent des moments et qui créent des souvenirs. Explorez notre collection pour découvrir comment chaque article peut transformer votre espace en un sanctuaire de confort et de style.
                             </p>
-                            <div class="buton-center-jane">
-                            <a href="#studio-section" class= " mb-5 btn btn-xl shadow me-3 btn-jane-chaise mb-4"  data-aos="fade-up">Voir plus</a> <!-- Espacement avec mb-4 -->
+                            <div class="buton-center-jane ">
+                                 <a href="#studio-section" class= "  btn  btn-xl  me-3 btn-jane-chaise my-5"  data-aos="fade">Voir plus</a> <!-- Espacement avec mb-4 -->
                             </div>
                         </div>
                     </div>
                     <!-- Colonne pour l'image -->
-                    <div class="col-md-6 d-flex justify-content-center align-items-center" data-aos="fade-right">
+                    <div class="col-md-6 d-flex justify-content-center align-items-center" data-aos="fade-up">
                         <div class="text-center jane-img-bg custum-cocotier">
                             <img class="jane-img img-fluid mb-5  shadow" src="{{asset('img/ja/acceuil_img_3.jpg')}}" alt="">
                         </div>
                     </div>
                     
+                    
                 </div>
             </div>
         </section>
 
-
+     
         <div class=" w-100 overflow-hidden jane-img-bg-1" id="numbers">
           <div class="w-100 overflow-hidden bg-carousel" id="studio-section">
             <div class="w-100 overflow-hidden bg-jane-100 " id="top">
@@ -150,11 +150,11 @@
               <div class="container py-vh-4 w-100 overflow-hidden">
                   <div class="row d-flex justify-content-center align-items-center">
                     <div class="col-lg-5">
-                  <h3 class="py-5 border-top border-dark" data-aos="fade-right"> Créer un espace qui vous ressemble</h3>
+                  <h3 class="py-5 border-top border-dark  text_3d_2" data-aos="fade-right"> Créer un espace qui vous ressemble</h3>
                 </div>
                   <div class="col-md-7" data-aos="fade-left">
                     <blockquote>
-                      <div class="fs-4 my-3 fw-light pt-4 border-bottom pb-1">La décoration intérieure va au-delà des meubles. Avec notre collection, vous pouvez personnaliser chaque détail, des textiles aux accessoires, pour créer un espace qui reflète véritablement votre style unique.</div>
+                      <div class="fs-4 my-3 fw-light pt-4 border-bottom pb-1 style-text-jane text_3d_2">La décoration intérieure va au-delà des meubles. Avec notre collection, vous pouvez personnaliser chaque détail, des textiles aux accessoires, pour créer un espace qui reflète véritablement votre style unique.</div>
                     </blockquote>
                   </div>
                   <div class="row d-flex justify-content-start align-items-start">
