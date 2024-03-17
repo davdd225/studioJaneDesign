@@ -4,13 +4,11 @@
           <div class="carousel">
             <div class="carousel-slide">
               <img src="{{asset('img\img-carousel\img_1.jpg')}}" alt="Image 1" class="carousel-img" >
-              <!-- <div class="carousel-text shadow ">Salle à manger</div> -->
             </div>
-            <div class="carousel-slide">
+            <div class="carousel-slide active">
               <img src="{{asset('img\img-carousel\img_2.jpg')}}" alt="Image 2" class="carousel-img">
-              <!-- <div class="carousel-text ">Salon </div> -->
             </div>
-            <div class="carousel-slide">
+            <div class="carousel-slide ">
               <img src="{{asset('img\img-carousel\img_4.jpg')}}" alt="Image 3" class="carousel-img">
               <!-- <div class="carousel-text"> Sale de bain </div> -->
             </div>
@@ -21,10 +19,9 @@
                 <div class="row align-items-center mb-5">
                     <div class="col-md-6  ">
                         <div class="py-vh-5 text-center-2">
-                            <h1 class="display-2 text-figure   mb-5" data-aos="fade-down">Transformez votre espace avec Studio JANE design</h1>
+                            <h1 class="display-2 text-figure   mb-5" data-aos="fade-down">Transformez votre espace</h1>
                             <p class="mb-6 text-p-jane-studio style-text-jane  " data-aos="fade-up">
-                            Nous ne proposons pas seulement des meubles et des décorations intérieures, mais des pièces qui racontent des histoires, qui capturent des moments et qui créent des souvenirs. Explorez notre collection pour découvrir comment chaque article peut transformer votre espace en un sanctuaire de confort et de style.
-                            </p>
+                              Bienvenue dans le monde captivant de l'aménagement intérieur où chaque espace devient une toile vierge pour exprimer votre style personnel et créer un environnement qui vous inspire chaque jour. Chez Studio Jane Design, nous comprenons l'importance cruciale de concevoir des intérieurs qui non seulement répondent à vos besoins pratiques, mais qui aussi reflètent votre individualité et évoquent des émotions positives à chaque instant.                            </p>
                             <div class="buton-center-jane ">
                                  <a href="#studio-section" class= "  btn  btn-xl  me-3 btn-jane-chaise my-5"  data-aos="fade">Voir plus</a> <!-- Espacement avec mb-4 -->
                             </div>
@@ -36,8 +33,6 @@
                             <img class="jane-img img-fluid mb-5  shadow" src="{{asset('img/ja/acceuil_img_3.jpg')}}" alt="">
                         </div>
                     </div>
-                    
-                    
                 </div>
             </div>
         </section>
@@ -71,8 +66,8 @@
                       </div>
                       <div class="col-lg-4">
                         <h2 class="display-2 mt-5" data-aos="fade-left">Nos Meubles</h2>
-                        <h3 class="display-7 py-5 border-top border-dark " data-aos="fade-left">Fait en Bois de Cocotier</h3>
-                        <p class="text-jane" data-aos="fade-left" data-aos-delay="200">Chaque pièce de notre collection est soigneusement conçue et fabriquée à partir de bois de cocotier de haute qualité. Nous croyons en l'alliance entre l'esthétique contemporaine et la chaleur naturelle du bois, créant ainsi des meubles uniques qui s'intègrent parfaitement à tout style d'intérieur.
+                        <h3 class="display-7 py-5 border-top border-dark " data-aos="fade-left">Bois de Cocotier : Une Fusion Parfaite entre Esthétique Moderne et Chaleur Naturelle</h3>
+                        <p class="text-jane" data-aos="fade-left" data-aos-delay="200">Notre gamme de mobilier confectionné en bois de cocotier incarne notre engagement envers la fusion entre l'esthétique moderne et la chaleur authentique du bois. Chaque pièce de notre collection est méticuleusement élaborée à partir de bois de cocotier de premier choix. Ces meubles uniques sont conçus pour s'harmoniser parfaitement avec divers styles d'intérieur, offrant ainsi une combinaison parfaite de qualité et de design contemporain.
                         </p>
                       </div>
                     </div>
@@ -85,19 +80,19 @@
                            <div class="col-lg-4">
                             <br>
                             <br>
-                            <h3 class="display-3  py-vh-2 border-bottom  " data-aos="fade-left">Le bois de cocotier : Une élégance naturelle</h3>
+                            <h3 class="display-3  py-vh-2 border-bottom  " data-aos="fade-left">L'Élégance Naturelle du Bois de Cocotier</h3>
                             <h4 class="display-7  py-vh-2 border-top border-dark " data-aos="fade-left"> Caractéristiques principales</h4>
 
                             <div  class="text-jane" data-aos="fade-left" data-aos-delay="200">
                             <ul>
                                 <li>
-                                    Grain Naturel : Chaque morceau de bois de cocotier présente un grain distinctif, ajoutant une touche visuelle et texturée à chaque meuble.
+                                    <span class="strong_title">Grain Naturel :</span> Chaque morceau de bois de cocotier présente un grain distinctif, ajoutant une touche visuelle et texturée à chaque meuble.
                                 </li>
                                 <li>
-                                    Couleur Chaleureuse : Les nuances chaudes allant du brun clair au brun foncé confèrent une ambiance chaleureuse et naturelle à tout espace.
+                                  <span class="strong_title">Couleur Chaleureuse : </span>Les nuances chaudes allant du brun clair au brun foncé confèrent une ambiance chaleureuse et naturelle à tout espace.
                                 </li>
                                 <li>
-                                    Durabilité Exceptionnelle : Réputé pour sa robustesse, le bois de cocotier est un choix durable, résistant aux fissures et à la déformation.
+                                  <span class="strong_title">Durabilité Exceptionnelle :</span> Réputé pour sa robustesse, le bois de cocotier est un choix durable, résistant aux fissures et à la déformation.
                                 </li>
                             </ul>
                             </div>
@@ -171,21 +166,19 @@
             </div>
           </div>
         </div>
-  
-
   <script>
-const slides = document.querySelectorAll('.carousel-slide');
-let currentSlideIndex = 0;
+    const slides = document.querySelectorAll('.carousel-slide');
+    let currentSlideIndex = 0;
 
-function showSlide(index) {
-  slides[currentSlideIndex].classList.remove('active');
-  slides[index].classList.add('active');
-  currentSlideIndex = index;
-}
-function nextSlide() {
-  const nextIndex = (currentSlideIndex + 1) % slides.length;
-  showSlide(nextIndex);
-}
-setInterval(nextSlide, 3000); // Change slide every 3 seconds
+    function showSlide(index) {
+      slides[currentSlideIndex].classList.remove('active');
+      slides[index].classList.add('active');
+      currentSlideIndex = index;
+    }
+    function nextSlide() {
+      const nextIndex = (currentSlideIndex + 1) % slides.length;
+      showSlide(nextIndex);
+    }
+    setInterval(nextSlide, 3000); // Change slide every 3 seconds
   </script>
 @endsection

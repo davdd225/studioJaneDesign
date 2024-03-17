@@ -45,7 +45,7 @@
                              <div class="mb-6">
                                 <label for="services" class="form-label">Services</label>
                                  <select name ="services" class="form-control form-control-lg mb-3" aria-label=".form-control-lg example">
-                                  <option selected>Ouvrez ce menu de sélection</option>
+                                  <option selected>Ouvrez  notre liste déroulante pour découvrir  nos services</option>
                                   <option value="1">Deco intérieure</option>
                                   <option value="2">Conception 3D</option>
                                   <option value="3">Rénovation</option>

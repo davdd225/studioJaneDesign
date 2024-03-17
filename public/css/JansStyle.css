@@ -691,7 +691,7 @@ testStudio {
 
 .hero-image {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-        url("/img/img-bg.jpg");
+        url("/img/ja_apropos.jpg");
     width: 100%;
     height: 500px;
     background-position: center;
@@ -800,7 +800,8 @@ testStudio {
     }
     .text-for-img {
         /* color: #f4f4f4; */
-        font-size: 25px;
+        font-size: 19 px !important;
+        font-weight: 500;
         letter-spacing: 5px !important;
         font-family: "Calibri Light" !important;
         text-transform: uppercase;
@@ -1238,4 +1239,8 @@ testStudio {
 
 .btn .trans {
     transition: all 0.5s ease-in-out 0s !important;
+}
+
+.strong_title {
+    font-weight: 600 !important;
 }

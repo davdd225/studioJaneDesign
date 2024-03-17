@@ -32,7 +32,7 @@
                             <div class="col-lg-6">
                               <div class="row gx-5 d-flex">
                                 <div class="col-md-11">
-                                  <div class="shadow  ratio ratio-16x9 rounded bg-cover bp-center align-self-end" data-aos="fade-right" style="background-image: url('img/plan_5.png'); --bs-aspect-ratio: 50%;">
+                                  <div class="shadow  ratio ratio-16x9 rounded bg-cover bp-center align-self-end" data-aos="fade-right" style="background-image: url('img/ja_apropos_1.jpg'); --bs-aspect-ratio: 55%;">
                                   </div>
                                 </div>
                                 <div class="col-md-5 offset-md-1">
@@ -114,15 +114,15 @@
                         <div class="col-lg-6">
                           <div class="row gx-5 d-flex">
                             <div class="col-md-11">
-                              <div class="shadow  ratio ratio-16x9 rounded bg-cover bp-center align-self-end" data-aos="fade-right" style="background-image: url('img/Plan3D_2.jpg'); --bs-aspect-ratio: 50%;">
+                              <div class="shadow  ratio ratio-16x9 rounded bg-cover bp-center align-self-end" data-aos="fade-right" style="background-image: url('img/ja_livraison.jpg'); --bs-aspect-ratio: 50%;">
                               </div>
                             </div>
                             <div class="col-md-5 offset-md-1">
-                              <div class="shadow ratio ratio-1x1 rounded bg-cover mt-5 bp-center float-end" data-aos="fade-up" style="background-image: url('img/plan3D_4.jpg');">
+                              <div class="shadow ratio ratio-1x1 rounded bg-cover mt-5 bp-center float-end" data-aos="fade-up" style="background-image: url('img/ja-bois.jpg');">
                               </div>
                             </div>
                             <div class="col-md-6">
-                              <div class="col-12 mb-5 shadow ratio rounded bg-cover mt-5 bp-center" data-aos="fade-left" style="background-image: url('img/Plan3D_3.jpg');--bs-aspect-ratio: 150%;">
+                              <div class="col-12 mb-5 shadow ratio rounded bg-cover mt-5 bp-center" data-aos="fade-left" style="background-image: url('img/ja-artisan-faisant.jpg');--bs-aspect-ratio: 150%;">
                               </div>
                             </div>
                           </div>

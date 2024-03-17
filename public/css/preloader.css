@@ -1,0 +1,65 @@
+body {
+    overflow: hidden;
+}
+
+/* Preloader */
+
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #f4f4f4;
+    /* change if the mask should have another color then white */
+    z-index: 99;
+    /* makes sure it stays on top */
+}
+
+#status {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    /* centers the loading animation in the middle of the screen */
+    transform: translate(-50%, -50%);
+    /* centering trick */
+    /* background-image: url(https://raw.githubusercontent.com/niklausgerber/PreLoadMe/master/img/status.gif); */
+    /* path to your loading animation */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    /* adjust background size to fit */
+}
+
+@media screen and (max-width: 1020px) {
+    #preloader {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #fff;
+        /* change if the mask should have another color then white */
+        z-index: 99;
+        /* makes sure it stays on top */
+    }
+
+    #status {
+        width: 300px;
+        height: 300px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        /* centers the loading animation in the middle of the screen */
+        transform: translate(-50%, -50%);
+        /* centering trick */
+        /* background-image: url(https://raw.githubusercontent.com/niklausgerber/PreLoadMe/master/img/status.gif); */
+        /* path to your loading animation */
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        /* adjust background size to fit */
+    }
+}
