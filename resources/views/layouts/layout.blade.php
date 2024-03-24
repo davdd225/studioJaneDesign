@@ -11,7 +11,6 @@
       <link rel="stylesheet" href="{{asset('bootstrap-5.3.1-dist/css/bootstrap.min.css')}}">
       <link rel="stylesheet" href="{{asset('css/JansStyle.css')}}">
       <link rel="stylesheet" href="{{asset('css/theme.min.css')}}">
-      <link rel="stylesheet" href="{{asset('css/carousel.css')}}">
       <link rel="stylesheet" href="{{asset('css/preloader.css')}}">
       
 
@@ -193,46 +192,27 @@
       //  <script src="{{url('https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js')}}" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
        <script src="{{asset('js/bootstrap.bundle.min.js')}}"></script>
        <script src="{{asset('js/aos.js')}}"></script>
-       <script>
-            window.onload = function () {
-            // Assurez-vous que tout le site est chargé
-
-            // Fonction pour simuler jQuery.fadeOut()
-            function fadeOut(el, time) {
-                el.style.opacity = 1;
-
-                (function fade() {
-                    if ((el.style.opacity -= 0.1) < 0) {
-                        el.style.display = "none";
-                    } else {
-                        requestAnimationFrame(fade);
-                    }
-                })();
-            }
-
-            // Fonction pour simuler jQuery.delay().fadeOut()
-            function delayFadeOut(el, delay, time) {
-                setTimeout(() => {
-                    fadeOut(el, time);
-                }, delay);
-            }
-
-            // Remplacer $("#status").fadeOut();
-            var status = document.getElementById("status");
-            if (status) fadeOut(status, 400);
-
-            // Remplacer $("#preloader").delay(350).fadeOut("slow");
-            var preloader = document.getElementById("preloader");
-            if (preloader) delayFadeOut(preloader, 350, 600);
-
-            // Remplacer $("body").delay(350).css({ overflow: "visible" });
-            setTimeout(() => {
+      <script>
+        window.addEventListener('load', function() { // assurez-vous que tout le site est chargé
+            var statusElement = document.getElementById('status');
+            var preloaderElement = document.getElementById('preloader');
+            // Faire disparaître d'abord l'animation de chargement
+            statusElement.style.opacity = 0;
+            // Faire disparaître ensuite le DIV blanc qui recouvre le site.
+            setTimeout(function() {
+                preloaderElement.style.opacity = 0;
+                preloaderElement.style.transition = 'opacity 0.5s ease';
+                setTimeout(function() {
+                preloaderElement.style.display = 'none';
+                }, 500);
+            }, 350);
+            // Afficher le contenu de la page une fois que le chargement est terminé
+            setTimeout(function() {
                 document.body.style.overflow = 'visible';
             }, 350);
-        };
+            });
 
-       </script>
-     
+      </script>
        <script>
             AOS.init({
             duration: 800, // values from 0 to 3000, with step 50ms

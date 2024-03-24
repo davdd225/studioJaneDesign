@@ -59,7 +59,7 @@
                              </div>
                              <p class="small text-muted mb-5">Dites-nous comment nous pouvons vous aider ! Partagez vos besoins dans le champ message ci-dessous.</p>
                              <div class=" col-12 details-btn-jane">
-                                 <a type="submit" class="  mb-5 btn btn-xl  me-3 btn-jane-chaise">Envoyer</a> 
+                                 <button type="submit" class="mb-5 btn btn-xl me-3 btn-jane-chaise">Envoyer</button> 
                              </div>                   
                            </div>
                        </form>

@@ -48,8 +48,8 @@
                           <div class="col-lg-4 jane-media">
                             <p class="text-jane" data-aos="fade-left" data-aos-delay="200">
                               <div class="col-md-9 flex-fill">
-                              <span class="h5 fw-lighter ">01.</span>
-                                <div class="text-apropos-2 border-top border-darkd">
+                              <span class="h1 fw-lighter ">01.</span>
+                                <div class="text-apropos-2 border-top border-dark">
                                   <ul>
                                     <li class="mb-2"  data-aos="fade-up">Rendez-vous à votre domicile avec un professionnel</li>
                                     <li class="mb-2"  data-aos="fade-up">Plan état des lieux</li>
@@ -77,7 +77,7 @@
                       <div class="row d-flex justify-content-between align-items-center">
                       <div class="col-lg-4">
                           <div class="col-md-9 flex-fill">
-                          <span class="h5 fw-lighter ">02.</span>
+                          <span class="h1 fw-lighter ">02.</span>
                               <div class="text-apropos-2 border-top border-dark">
                                 <ul>
                                   <li class="mb-2" data-aos="fade-up">Utilisation de logiciels avancés de conception pour traduire la vision du client en concepts virtuels, en mettant l'accent sur les détails spécifiques fournis par le client.</li>
@@ -129,7 +129,7 @@
                       </div>
                       <div class="col-lg-4">
                           <div class="col-md-9 flex-fill">
-                          <span class="h5 fw-lighter">03.</span>
+                          <span class="h1 fw-lighter">03.</span>
                               <div class="text-apropos-2 border-top border-dark">
                                 <ul>
                                   <li class="mb-2"  data-aos="fade-up">Engagement envers des pratiques de conception et de fabrication durables.</li>

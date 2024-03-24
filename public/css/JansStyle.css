@@ -375,7 +375,7 @@ testStudio {
     }
 
     .text-p-jane-studio {
-        font-size: 20px !important;
+        font-size: 25px !important;
         margin-bottom: 8%;
         letter-spacing: 1;
         width: 360px;
@@ -790,6 +790,13 @@ testStudio {
             50% - 20px
         ); /* Deux images par ligne sur les écrans de moins de 1200px */
     }
+    .text-for-img {
+        font-size: 19px !important;
+        font-weight: 500;
+        letter-spacing: 5px !important;
+        font-family: "Calibri Light" !important;
+        text-transform: uppercase;
+    }
 }
 
 @media (max-width: 768px) {
@@ -799,8 +806,7 @@ testStudio {
         ); /* Une image par ligne sur les écrans de moins de 768px */
     }
     .text-for-img {
-        /* color: #f4f4f4; */
-        font-size: 19 px !important;
+        font-size: 15px !important;
         font-weight: 500;
         letter-spacing: 5px !important;
         font-family: "Calibri Light" !important;
@@ -826,7 +832,6 @@ testStudio {
 }
 
 .text-for-img {
-    /* color: #f4f4f4; */
     font-size: 25px;
     letter-spacing: 5px !important;
     font-family: "Calibri Light" !important;
